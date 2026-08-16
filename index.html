@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FarmIQ – AI Powered Smart Farming Assistant. Voice-driven crop disease diagnosis, mandi price predictions, weather advice, fertilizer calculation, and government scheme finder in 5 languages.">
+  <meta name="keywords" content="smart farming, AI agriculture, crop disease doctor, Kisan AI, mandi rates, fertilizer recommendation, Kisan Mitra">
+  <title>FarmIQ – AI Powered Smart Farming Assistant</title>
+  
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="brand-icon">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <div class="brand-title">Farm<span>IQ</span></div>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#voice-assistant" class="active" data-i18n="navVoice">Voice Assistant</a></li>
+        <li><a href="#crop-doctor" data-i18n="navCropDoctor">AI Crop Doctor</a></li>
+        <li><a href="#weather" data-i18n="navWeather">Weather</a></li>
+        <li><a href="#fertilizer" data-i18n="navFertilizer">Fertilizer</a></li>
+        <li><a href="#mandi" data-i18n="navMandi">Mandi Rates</a></li>
+        <li><a href="#schemes" data-i18n="navSchemes">Govt Schemes</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <!-- Language Selector -->
+        <div class="lang-selector">
+          <select id="languageSelect" class="lang-select" onchange="changeLanguage(this.value)">
+            <option value="en">🌐 English</option>
+            <option value="hi">🌐 हिंदी (Hindi)</option>
+            <option value="kn">🌐 ಕನ್ನಡ (Kannada)</option>
+            <option value="ta">🌐 தமிழ் (Tamil)</option>
+            <option value="te">🌐 తెలుగు (Telugu)</option>
+          </select>
+        </div>
+        
+        <!-- SOS Emergency Pill -->
+        <a href="#emergency" class="btn-emergency-nav" data-i18n="navSOS">
+          <i class="fa-solid fa-triangle-exclamation"></i> SOS HELP
+        </a>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" onclick="toggleMobileMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#voice-assistant" onclick="toggleMobileMenu()" data-i18n="navVoice">Voice Assistant</a>
+    <a href="#crop-doctor" onclick="toggleMobileMenu()" data-i18n="navCropDoctor">AI Crop Doctor</a>
+    <a href="#weather" onclick="toggleMobileMenu()" data-i18n="navWeather">Weather Advisor</a>
+    <a href="#fertilizer" onclick="toggleMobileMenu()" data-i18n="navFertilizer">Fertilizer Advisor</a>
+    <a href="#mandi" onclick="toggleMobileMenu()" data-i18n="navMandi">Mandi Dashboard</a>
+    <a href="#schemes" onclick="toggleMobileMenu()" data-i18n="navSchemes">Govt Schemes</a>
+    <a href="#emergency" onclick="toggleMobileMenu()" class="btn-emergency-nav" data-i18n="navSOS">🚨 SOS Emergency</a>
+  </div>
+
+  <!-- HOME PAGE / HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <!-- Animated Farm Background Graphic -->
+    <div class="farm-bg-container">
+      <div class="sun-glow"></div>
+      
+      <!-- Floating Clouds -->
+      <svg class="cloud cloud-1" width="160" height="70" viewBox="0 0 100 50" fill="white">
+        <path d="M10 40 Q20 20 35 25 Q50 10 70 20 Q85 10 95 30 Q100 40 90 45 Z" />
+      </svg>
+      <svg class="cloud cloud-2" width="220" height="90" viewBox="0 0 100 50" fill="white">
+        <path d="M10 40 Q20 20 35 25 Q50 10 70 20 Q85 10 95 30 Q100 40 90 45 Z" />
+      </svg>
+      
+      <!-- Birds Flying Animation -->
+      <div class="birds-container">
+        <svg width="60" height="30" viewBox="0 0 50 25" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2">
+          <path d="M2 15 Q 12 5 22 15 Q 32 5 42 15" />
+        </svg>
+      </div>
+
+      <!-- Floating Leaf Particles -->
+      <div class="floating-leaves">
+        <div class="leaf">🍃</div>
+        <div class="leaf">🌿</div>
+        <div class="leaf">🌾</div>
+        <div class="leaf">🍃</div>
+      </div>
+
+      <!-- Farm Horizon & Crop Hills SVG -->
+      <svg class="farm-svg-bottom" preserveAspectRatio="none" viewBox="0 0 1440 320">
+        <!-- Mountain Silhouette -->
+        <path fill="rgba(6, 78, 59, 0.5)" d="M0,192L120,181.3C240,171,480,149,720,160C960,171,1200,213,1320,234.7L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+        <!-- Crop Fields Hill -->
+        <path fill="rgba(4, 120, 87, 0.7)" d="M0,256L144,240C288,224,576,192,864,208C1152,224,1296,256,1368,272L1440,288L1440,320L1368,320C1296,320,1152,320,864,320C576,320,288,320,144,320L0,320Z"></path>
+        <!-- Swaying Wheat Crop Accents -->
+        <path fill="#10b981" opacity="0.4" d="M0,288L80,272C160,256,320,224,480,240C640,256,800,320,960,304C1120,288,1280,192,1360,144L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      </svg>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="badge-hackathon">
+          <i class="fa-solid fa-trophy"></i> National AI Hackathon Winner Project
+        </div>
+        <h1 class="hero-title" data-i18n="heroTitle">
+          Empowering Farmers Through Artificial Intelligence
+        </h1>
+        <p class="hero-description" data-i18n="heroDesc">
+          Your all-in-one smart farming companion. Diagnose leaf diseases instantly, talk in your mother tongue, check dynamic Mandi prices, get weather alerts, and unlock government subsidies with AI.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#voice-assistant" class="btn-primary" data-i18n="heroCTA">
+            <i class="fa-solid fa-microphone-lines"></i> Start Farming Smart
+          </a>
+          <a href="#crop-doctor" class="btn-secondary" data-i18n="heroSecondaryCTA">
+            <i class="fa-solid fa-camera-retro"></i> Try AI Doctor
+          </a>
+        </div>
+
+        <div class="hero-features-list">
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i> <span data-i18n="featVoice">100% Voice Enabled</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i> <span data-i18n="featLang">5 Regional Languages</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-circle-check"></i> <span data-i18n="featOffline">Works Offline Mode</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Interactive AI Showcase Card -->
+      <div class="hero-showcase">
+        <div class="glass-card hero-preview-card">
+          <div class="preview-avatar">👨‍🌾</div>
+          <h3 class="preview-title" data-i18n="previewTitle">Kisan Mitra AI Assistant</h3>
+          <p class="preview-desc" data-i18n="previewSub">"Namaste Farmer! How can I assist your crop today?"</p>
+          
+          <div class="quick-prompts-grid">
+            <button class="prompt-btn" onclick="triggerPresetVoice('Mere tamatar ke patton par daag hain')">
+              <span>🔬</span> <small data-i18n="prompt1">Tomato Leaf Spots</small>
+            </button>
+            <button class="prompt-btn" onclick="triggerPresetVoice('Kal barish hogi kya')">
+              <span>🌧️</span> <small data-i18n="prompt2">Will it rain tomorrow?</small>
+            </button>
+            <button class="prompt-btn" onclick="triggerPresetVoice('Gehu ka rate kya hai')">
+              <span>🌾</span> <small data-i18n="prompt3">Wheat Mandi Rate</small>
+            </button>
+            <button class="prompt-btn" onclick="triggerPresetVoice('Dhan ke liye kaun sa khad behtar hai')">
+              <span>🧪</span> <small data-i18n="prompt4">Best Rice Fertilizer</small>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 1: SMART VOICE ASSISTANT -->
+  <section class="voice-assistant-section" id="voice-assistant">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagVoice">Feature 1</span>
+        <h2 class="section-title" data-i18n="titleVoice">Smart Voice Assistant</h2>
+        <p class="section-subtitle" data-i18n="subVoice">
+          Designed for all farmers including illiterate and elderly users. Simply tap the microphone and speak in your language.
+        </p>
+      </div>
+
+      <!-- Microphone Pulse Visualizer -->
+      <div class="mic-container">
+        <div class="mic-button-wrapper">
+          <button class="mic-button" id="micBtn" onclick="toggleVoiceRecognition()" aria-label="Start Voice Assistant">
+            <i class="fa-solid fa-microphone" id="micIcon"></i>
+          </button>
+          <div class="pulse-ring pulse-ring-1"></div>
+          <div class="pulse-ring pulse-ring-2"></div>
+        </div>
+        <div class="mic-status" id="micStatus" data-i18n="micTapPrompt">Tap Microphone & Speak</div>
+        <div class="mic-hint" id="micHint" data-i18n="micHintText">"Example: Kal barish hogi kya? or Mere tamatar me rog hai"</div>
+      </div>
+
+      <!-- Sample Voice Prompts Pills -->
+      <div class="sample-prompts-wrapper">
+        <p class="sample-title" data-i18n="sampleTitle">Or click any quick voice query below:</p>
+        <div class="prompts-pills">
+          <button class="sample-pill" onclick="triggerPresetVoice('Mere tamatar ke patton par daag hain')">
+            💬 "Mere tamatar ke patton par daag hain"
+          </button>
+          <button class="sample-pill" onclick="triggerPresetVoice('Kal barish hogi kya')">
+            🌧️ "Kal barish hogi kya?"
+          </button>
+          <button class="sample-pill" onclick="triggerPresetVoice('Gehu ka rate kya hai')">
+            💰 "Gehu ka rate kya hai?"
+          </button>
+          <button class="sample-pill" onclick="triggerPresetVoice('Dhan ke liye kaun sa khad behtar hai')">
+            🌱 "Dhan ke liye kaun sa khad behtar hai?"
+          </button>
+          <button class="sample-pill" onclick="triggerPresetVoice('Tamatar ke khet me kitna pani dein')">
+            💧 "Tamatar ke khet me kitna pani dein?"
+          </button>
+        </div>
+      </div>
+
+      <!-- Fallback Search Input -->
+      <div class="voice-input-box">
+        <input type="text" id="voiceTextInput" placeholder="Type your query in Hindi/English..." data-i18n-placeholder="inputPlaceholder">
+        <button class="btn-primary" onclick="processTextQuery()" data-i18n="btnAsk">
+          <i class="fa-solid fa-paper-plane"></i> Ask AI
+        </button>
+      </div>
+
+      <!-- Voice Output Solution Card -->
+      <div class="glass-card voice-result-card" id="voiceResultCard">
+        <div class="result-header">
+          <div class="category-tag" id="resCategoryTag">
+            <i class="fa-solid fa-stethoscope"></i> <span id="resCategoryText">Disease</span>
+          </div>
+          <button class="btn-speak-response" onclick="speakCurrentResponse()">
+            <i class="fa-solid fa-volume-high"></i> <span data-i18n="btnListen">Listen Aloud</span>
+          </button>
+        </div>
+        
+        <p class="user-query-text" id="resUserQuery">"Mere tamatar ke patton par daag hain"</p>
+        <div class="solution-body" id="resSolutionBody">
+          <!-- Populated dynamically by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 2: AI CROP DOCTOR -->
+  <section class="crop-doctor-section" id="crop-doctor">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagDoctor">Feature 2</span>
+        <h2 class="section-title" data-i18n="titleDoctor">AI Crop Doctor</h2>
+        <p class="section-subtitle" data-i18n="subDoctor">
+          Upload or select a photo of your infected crop leaf for instant AI disease diagnosis and spray remedies.
+        </p>
+      </div>
+
+      <div class="doctor-grid">
+        <!-- Left: Upload Box & Presets -->
+        <div class="glass-card">
+          <div class="upload-box" id="dropZone" onclick="document.getElementById('cropFileInput').click()">
+            <input type="file" id="cropFileInput" accept="image/*" style="display:none" onchange="handleImageUpload(event)">
+            <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+            <h3 class="upload-title" data-i18n="uploadTitle">Click or Drag Leaf Photo Here</h3>
+            <p class="upload-sub" data-i18n="uploadSub">Supports JPG, PNG, WEBP files</p>
+          </div>
+
+          <p class="preset-title" data-i18n="presetTitle">Or select a demo crop sample to test AI:</p>
+          <div class="preset-samples-grid">
+            <button class="preset-btn" onclick="analyzePresetSample('tomato_blight')">
+              <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb231fc?auto=format&fit=crop&w=150&q=80" alt="Tomato Leaf">
+              <div class="preset-info">
+                <h5 data-i18n="sample1Name">Tomato Early Blight</h5>
+                <span data-i18n="sample1Sub">Tomato Leaf</span>
+              </div>
+            </button>
+            <button class="preset-btn" onclick="analyzePresetSample('rice_blast')">
+              <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=150&q=80" alt="Rice Leaf">
+              <div class="preset-info">
+                <h5 data-i18n="sample2Name">Rice Leaf Blast</h5>
+                <span data-i18n="sample2Sub">Paddy Leaf</span>
+              </div>
+            </button>
+            <button class="preset-btn" onclick="analyzePresetSample('wheat_rust')">
+              <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=150&q=80" alt="Wheat Rust">
+              <div class="preset-info">
+                <h5 data-i18n="sample3Name">Wheat Yellow Rust</h5>
+                <span data-i18n="sample3Sub">Wheat Crop</span>
+              </div>
+            </button>
+            <button class="preset-btn" onclick="analyzePresetSample('cotton_bollworm')">
+              <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=150&q=80" alt="Cotton Leaf">
+              <div class="preset-info">
+                <h5 data-i18n="sample4Name">Cotton Bollworm</h5>
+                <span data-i18n="sample4Sub">Cotton Leaf</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Scanner & Diagnosis Output -->
+        <div class="glass-card">
+          <!-- Animated Laser Scanner Viewport -->
+          <div class="scanner-display" id="scannerDisplay">
+            <img src="" id="scannerPreviewImg" class="preview-img" alt="Crop Scan Preview">
+            <div class="laser-beam"></div>
+            <div class="scanner-text">
+              <i class="fa-solid fa-compact-disc fa-spin"></i> <span data-i18n="scanningText">AI Neural Scanner Analyzing Leaf...</span>
+            </div>
+          </div>
+
+          <!-- Diagnosis Report -->
+          <div class="diagnosis-report" id="diagnosisReport">
+            <div class="report-header">
+              <div>
+                <h3 class="disease-name" id="diagDiseaseName">Tomato Early Blight</h3>
+                <small style="color:var(--text-muted)" id="diagScientific">Alternaria solani</small>
+              </div>
+              <span class="severity-badge severity-high" id="diagSeverity">HIGH SEVERITY</span>
+            </div>
+
+            <div class="accuracy-bar-container">
+              <div class="accuracy-label">
+                <span data-i18n="diagConfidence">AI Confidence Match</span>
+                <strong id="diagAccuracyPct">96%</strong>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" id="diagProgressBar" style="width: 96%;"></div>
+              </div>
+            </div>
+
+            <div class="remedies-box">
+              <h4><i class="fa-solid fa-flask"></i> <span data-i18n="titleRemedies">Chemical & Organic Remedies</span></h4>
+              <ul class="remedies-list" id="diagRemediesList">
+                <li>Spray Copper Oxychloride 50% WP (3g per litre water) immediately.</li>
+                <li>Remove severely affected lower leaves and burn them away from field.</li>
+                <li>Avoid overhead sprinkler irrigation to keep leaves dry.</li>
+              </ul>
+            </div>
+
+            <button class="btn-speak-response" onclick="speakDoctorReport()" style="width:100%; justify-content:center;">
+              <i class="fa-solid fa-volume-high"></i> <span data-i18n="btnReadDiagnosis">Read Diagnosis Aloud in Voice</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 3: SMART WEATHER ADVISOR -->
+  <section class="weather-advisor-section" id="weather">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagWeather">Feature 3</span>
+        <h2 class="section-title" data-i18n="titleWeather">Smart Weather & Irrigation Advisor</h2>
+        <p class="section-subtitle" data-i18n="subWeather">
+          Localized farming decisions based on humidity, temperature, wind, and rain forecasts.
+        </p>
+      </div>
+
+      <!-- State Location Selector -->
+      <div class="weather-controls">
+        <select class="location-select" id="weatherLocation" onchange="updateWeatherDisplay(this.value)">
+          <option value="punjab">📍 Punjab (Ludhiana Region)</option>
+          <option value="up">📍 Uttar Pradesh (Lucknow Region)</option>
+          <option value="karnataka">📍 Karnataka (Hubballi Region)</option>
+          <option value="tn">📍 Tamil Nadu (Coimbatore Region)</option>
+          <option value="ap">📍 Andhra Pradesh (Guntur Region)</option>
+          <option value="mh">📍 Maharashtra (Nashik Region)</option>
+        </select>
+      </div>
+
+      <div class="weather-dashboard-grid">
+        <!-- Main Weather Glass Card -->
+        <div class="glass-card weather-main-card">
+          <div class="weather-icon-animated" id="wMainIcon">⛅</div>
+          <div class="temp-large" id="wTemp">29°C</div>
+          <div class="weather-condition" id="wCondition">Partly Cloudy</div>
+
+          <div class="weather-stats-grid">
+            <div class="w-stat-item">
+              <span data-i18n="wHumidity">Humidity</span>
+              <strong id="wHumidityVal">68%</strong>
+            </div>
+            <div class="w-stat-item">
+              <span data-i18n="wRain">Rain Chance</span>
+              <strong id="wRainVal">15%</strong>
+            </div>
+            <div class="w-stat-item">
+              <span data-i18n="wWind">Wind Speed</span>
+              <strong id="wWindVal">12 km/h</strong>
+            </div>
+            <div class="w-stat-item">
+              <span data-i18n="wUV">UV Index</span>
+              <strong id="wUVVal">Moderate (5)</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Farming Decision & Action Cards -->
+        <div class="glass-card">
+          <h3 style="margin-bottom: 20px;" data-i18n="titleFarmingAdvisory">Today's Smart Farming Recommendations</h3>
+
+          <div class="advisory-container">
+            <div class="advisory-badge-card positive" id="advIrrigation">
+              <span class="advisory-icon">✅</span>
+              <div>
+                <strong data-i18n="advIrrigationTitle">Irrigate Field Today</strong>
+                <p style="font-size: 0.85rem; opacity: 0.9;" data-i18n="advIrrigationSub">Low rain probability. Ideal for morning drip irrigation.</p>
+              </div>
+            </div>
+
+            <div class="advisory-badge-card negative" id="advPesticide">
+              <span class="advisory-icon">❌</span>
+              <div>
+                <strong data-i18n="advPesticideTitle">Do Not Spray Pesticides Today</strong>
+                <p style="font-size: 0.85rem; opacity: 0.9;" data-i18n="advPesticideSub">Wind speed is 12km/h; chemical drift risk is high.</p>
+              </div>
+            </div>
+
+            <div class="advisory-badge-card warning" id="advHarvest">
+              <span class="advisory-icon">⚠️</span>
+              <div>
+                <strong data-i18n="advHarvestTitle">Moderate Moisture Alert</strong>
+                <p style="font-size: 0.85rem; opacity: 0.9;" data-i18n="advHarvestSub">Dry harvested grain in shade to prevent humidity rot.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5-Day Forecast -->
+          <div class="forecast-5day-grid" id="forecastGrid">
+            <!-- Rendered dynamically by script.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 4: FERTILIZER RECOMMENDATION -->
+  <section class="fertilizer-section" id="fertilizer">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagFertilizer">Feature 4</span>
+        <h2 class="section-title" data-i18n="titleFertilizer">AI Fertilizer Recommendation Engine</h2>
+        <p class="section-subtitle" data-i18n="subFertilizer">
+          Select crop, soil type, and growth phase to calculate exact N-P-K dosage and organic soil boosters.
+        </p>
+      </div>
+
+      <div class="fertilizer-grid">
+        <!-- Form Controls -->
+        <div class="glass-card">
+          <form id="fertilizerForm" onsubmit="calculateFertilizer(event)">
+            <div class="form-group">
+              <label for="fertCrop" data-i18n="labelCropType">Select Crop Type</label>
+              <select id="fertCrop" class="form-control">
+                <option value="rice">Rice / Paddy (धान)</option>
+                <option value="wheat">Wheat (गेहूं)</option>
+                <option value="tomato">Tomato (टमाटर)</option>
+                <option value="cotton">Cotton (कपास)</option>
+                <option value="sugarcane">Sugarcane (गन्ना)</option>
+                <option value="maize">Maize / Corn (मक्का)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="fertSoil" data-i18n="labelSoilType">Select Soil Type</label>
+              <select id="fertSoil" class="form-control">
+                <option value="black">Black Soil (काली मिट्टी)</option>
+                <option value="alluvial">Alluvial Soil (जलोढ़ मिट्टी)</option>
+                <option value="red">Red Soil (लाल मिट्टी)</option>
+                <option value="sandy">Sandy Loam (बलुई मिट्टी)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="fertStage" data-i18n="labelStage">Crop Growth Stage</label>
+              <select id="fertStage" class="form-control">
+                <option value="sowing">Sowing / Basal Stage</option>
+                <option value="vegetative">Vegetative Growth</option>
+                <option value="flowering">Flowering Stage</option>
+                <option value="fruiting">Fruiting / Grain Filling</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="fertArea" data-i18n="labelArea">Field Size (Acres)</label>
+              <input type="number" id="fertArea" class="form-control" value="1" min="0.5" step="0.5">
+            </div>
+
+            <button type="submit" class="btn-primary" style="width:100%; justify-content:center;" data-i18n="btnCalculateFert">
+              <i class="fa-solid fa-calculator"></i> Calculate Dosage
+            </button>
+          </form>
+        </div>
+
+        <!-- Dynamic Output Card -->
+        <div class="glass-card fertilizer-result-card" id="fertResultCard">
+          <div class="fertilizer-output-header">
+            <h3 class="recommendation-title" id="fertRecTitle">Customized Fertilizer Plan</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem;" id="fertRecSub">Calculated for 1 Acre Paddy in Black Soil</p>
+          </div>
+
+          <div class="dose-grid">
+            <div class="dose-card">
+              <h5 data-i18n="doseUrea">Urea (Nitrogen 46%)</h5>
+              <p id="doseUreaVal">45 kg / Acre</p>
+            </div>
+            <div class="dose-card">
+              <h5 data-i18n="doseDAP">DAP (Di-Ammonium Phosphate)</h5>
+              <p id="doseDAPVal">50 kg / Acre</p>
+            </div>
+            <div class="dose-card">
+              <h5 data-i18n="doseMOP">MOP (Muriate of Potash)</h5>
+              <p id="doseMOPVal">25 kg / Acre</p>
+            </div>
+            <div class="dose-card">
+              <h5 data-i18n="doseOrganic">Organic Bio-Booster</h5>
+              <p id="doseOrganicVal">100 kg Neem Cake</p>
+            </div>
+          </div>
+
+          <div class="timing-info-box">
+            <i class="fa-solid fa-clock" style="font-size: 1.4rem; margin-top:2px;"></i>
+            <div>
+              <strong data-i18n="titleBestTime">Best Application Time:</strong>
+              <p id="fertTimingText" style="font-size:0.9rem;">Apply Urea in 2 split doses during early morning when soil has adequate moisture.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 5: SMART MANDI DASHBOARD -->
+  <section class="mandi-section" id="mandi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagMandi">Feature 5</span>
+        <h2 class="section-title" data-i18n="titleMandi">Smart Mandi Price Dashboard</h2>
+        <p class="section-subtitle" data-i18n="subMandi">
+          Live market price trends, AI buy/sell signals, and multi-mandi rate comparisons.
+        </p>
+      </div>
+
+      <!-- Crop Selector Tabs -->
+      <div class="mandi-crop-tabs">
+        <button class="crop-tab-btn active" onclick="switchMandiCrop('wheat', this)">🌾 Wheat (गेहूं)</button>
+        <button class="crop-tab-btn" onclick="switchMandiCrop('paddy', this)">🍚 Rice / Paddy (धान)</button>
+        <button class="crop-tab-btn" onclick="switchMandiCrop('tomato', this)">🍅 Tomato (टमाटर)</button>
+        <button class="crop-tab-btn" onclick="switchMandiCrop('cotton', this)">🧶 Cotton (कपास)</button>
+        <button class="crop-tab-btn" onclick="switchMandiCrop('onion', this)">🧅 Onion (प्याज)</button>
+      </div>
+
+      <div class="mandi-dashboard-grid">
+        <!-- Canvas Trend Chart -->
+        <div class="glass-card">
+          <h3 style="margin-bottom:12px;" id="mandiChartTitle">Wheat 7-Day Mandi Rate Trend (₹ / Quintal)</h3>
+          <div class="chart-wrapper">
+            <canvas id="mandiChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Market Sentiment Signal Card -->
+        <div class="glass-card market-signal-card">
+          <h4 data-i18n="titleAISignal">AI Market Recommendation</h4>
+          <div class="signal-pill signal-sell" id="mandiSignalPill">
+            🟢 SELL NOW
+          </div>
+          <p style="font-size: 0.95rem; color:var(--text-muted);" id="mandiSignalReason">
+            Prices are at 3-month peak ₹2,450/quintal due to high festival demand. Next week supply arrival may drop prices by 5%.
+          </p>
+        </div>
+      </div>
+
+      <!-- Nearby Mandi Rate Comparison Table -->
+      <div class="glass-card">
+        <h4 style="margin-bottom:16px;" data-i18n="titleRegionalMandi">Nearby Regional Mandi Comparisons</h4>
+        <div class="mandi-table-wrapper">
+          <table class="mandi-table">
+            <thead>
+              <tr>
+                <th data-i18n="thMandi">Mandi Name</th>
+                <th data-i18n="thLocation">District</th>
+                <th data-i18n="thPrice">Current Price (₹/Qtl)</th>
+                <th data-i18n="thChange">24h Change</th>
+                <th data-i18n="thStatus">Market Status</th>
+              </tr>
+            </thead>
+            <tbody id="mandiTableBody">
+              <!-- Rendered dynamically by script.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 6: GOVERNMENT SCHEME FINDER -->
+  <section class="schemes-section" id="schemes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagSchemes">Feature 6</span>
+        <h2 class="section-title" data-i18n="titleSchemes">Government Scheme Finder</h2>
+        <p class="section-subtitle" data-i18n="subSchemes">
+          Filter agricultural subsidies, crop insurance, and equipment grants matching your land size.
+        </p>
+      </div>
+
+      <!-- Scheme Filter Bar -->
+      <div class="scheme-filter-bar">
+        <select class="form-control" id="schemeStateFilter" onchange="filterSchemes()">
+          <option value="all">🌐 All States (Pan India)</option>
+          <option value="up">Uttar Pradesh</option>
+          <option value="punjab">Punjab</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="tn">Tamil Nadu</option>
+          <option value="ap">Andhra Pradesh</option>
+        </select>
+
+        <select class="form-control" id="schemeSizeFilter" onchange="filterSchemes()">
+          <option value="all">👨‍🌾 All Farm Sizes</option>
+          <option value="small">Small (< 2 Acres)</option>
+          <option value="medium">Medium (2 - 5 Acres)</option>
+          <option value="large">Large (> 5 Acres)</option>
+        </select>
+
+        <select class="form-control" id="schemeTypeFilter" onchange="filterSchemes()">
+          <option value="all">💡 All Subsidy Types</option>
+          <option value="cash">Direct Cash Support</option>
+          <option value="insurance">Crop Insurance</option>
+          <option value="equipment">Machinery & Drip Subsidy</option>
+        </select>
+      </div>
+
+      <!-- Schemes Cards Grid -->
+      <div class="schemes-cards-grid" id="schemesGrid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEME DETAILS MODAL -->
+  <div class="modal-overlay" id="schemeModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeSchemeModal()">&times;</button>
+      <div id="schemeModalBody">
+        <!-- Dynamic Modal Content -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURE 7: EMERGENCY FARM HELP (SOS) -->
+  <section class="emergency-section" id="emergency">
+    <div class="container">
+      <div class="emergency-card-banner">
+        <div class="emergency-icon-glow">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+        </div>
+        <h2 class="emergency-title" data-i18n="titleEmergency">Kisan Emergency Assistance (SOS)</h2>
+        <p class="emergency-subtitle" data-i18n="subEmergency">
+          Facing sudden locust attack, crop flood, or severe blight outbreak? Get emergency rescue protocols instantly.
+        </p>
+
+        <div class="emergency-buttons-grid">
+          <button class="sos-type-btn" onclick="triggerEmergencySOS('pest')">
+            <i class="fa-solid fa-bugs"></i>
+            <span data-i18n="sosPest">Locust / Pest Attack</span>
+          </button>
+          <button class="sos-type-btn" onclick="triggerEmergencySOS('disease')">
+            <i class="fa-solid fa-virus"></i>
+            <span data-i18n="sosDisease">Rapid Blight Outbreak</span>
+          </button>
+          <button class="sos-type-btn" onclick="triggerEmergencySOS('flood')">
+            <i class="fa-solid fa-cloud-showers-heavy"></i>
+            <span data-i18n="sosFlood">Flash Flood Rescue</span>
+          </button>
+          <button class="sos-type-btn" onclick="triggerEmergencySOS('drought')">
+            <i class="fa-solid fa-sun"></i>
+            <span data-i18n="sosDrought">Severe Drought Alert</span>
+          </button>
+        </div>
+
+        <a href="tel:18001801551" class="hotline-box">
+          <i class="fa-solid fa-phone-volume"></i>
+          <span>Kisan Call Center: 1800-180-1551</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 10: IMPACT SECTION -->
+  <section class="impact-section" id="impact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tagImpact">Real Results</span>
+        <h2 class="section-title" data-i18n="titleImpact">Empowering Thousands of Indian Farmers</h2>
+      </div>
+
+      <div class="impact-grid">
+        <div class="glass-card impact-card">
+          <div class="impact-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="impact-number" id="counter1">40%</div>
+          <div class="impact-label" data-i18n="impYield">Yield Increase</div>
+        </div>
+
+        <div class="glass-card impact-card">
+          <div class="impact-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <div class="impact-number" id="counter2">65%</div>
+          <div class="impact-label" data-i18n="impLoss">Crop Loss Reduced</div>
+        </div>
+
+        <div class="glass-card impact-card">
+          <div class="impact-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+          <div class="impact-number" id="counter3">35%</div>
+          <div class="impact-label" data-i18n="impIncome">Higher Income Gain</div>
+        </div>
+
+        <div class="glass-card impact-card">
+          <div class="impact-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <div class="impact-number" id="counter4">98%</div>
+          <div class="impact-label" data-i18n="impAccuracy">AI Disease Accuracy</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon"><i class="fa-solid fa-leaf"></i></div>
+            <div class="brand-title">Farm<span>IQ</span></div>
+          </div>
+          <p data-i18n="footerDesc">
+            AI-powered smart farming platform built for Indian agriculture. Empowering farmers with voice recognition, AI crop doctor, and dynamic market rates.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4 data-i18n="footFeatures">Features</h4>
+          <ul>
+            <li><a href="#voice-assistant" data-i18n="navVoice">Voice Assistant</a></li>
+            <li><a href="#crop-doctor" data-i18n="navCropDoctor">AI Crop Doctor</a></li>
+            <li><a href="#weather" data-i18n="navWeather">Weather Advisor</a></li>
+            <li><a href="#mandi" data-i18n="navMandi">Smart Mandi Rates</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 data-i18n="footGovt">Govt Direct</h4>
+          <ul>
+            <li><a href="#schemes">PM-KISAN Scheme</a></li>
+            <li><a href="#schemes">Fasal Bima Yojana</a></li>
+            <li><a href="#schemes">Soil Health Card</a></li>
+            <li><a href="#emergency">Emergency Helpline</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 data-i18n="footContact">Support & Contact</h4>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:8px;">
+            <i class="fa-solid fa-phone"></i> Toll-Free: 1800-180-1551
+          </p>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:8px;">
+            <i class="fa-solid fa-envelope"></i> help@farmiq.ai
+          </p>
+          <p style="font-size:0.9rem; color:var(--text-muted);">
+            <i class="fa-solid fa-location-dot"></i> New Delhi, India
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 FarmIQ Technologies. Built for National AI Hackathon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FEATURE 8: KISAN MITRA AI (FLOATING ASSISTANT) -->
+  <div class="kisan-mitra-floating-widget">
+    <button class="kisan-avatar-btn" id="kisanWidgetBtn" onclick="toggleKisanChat()" title="Chat with Kisan Mitra AI">
+      👨‍🌾
+      <div class="online-badge"></div>
+    </button>
+
+    <div class="kisan-chat-box" id="kisanChatBox">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <span>👨‍🌾</span>
+          <div>
+            <h4 data-i18n="kisanTitle">Kisan Mitra AI</h4>
+            <p data-i18n="kisanStatus">Online • Voice Enabled</p>
+          </div>
+        </div>
+        <button onclick="toggleKisanChat()" style="background:none; color:white; font-size:1.2rem;">&times;</button>
+      </div>
+
+      <div class="chat-body" id="chatBody">
+        <div class="chat-msg bot" data-i18n="kisanGreet">
+          Namaste! I am your AI Kisan Mitra. How can I help your crop today? You can ask me about pests, weather, or mandi prices!
+        </div>
+      </div>
+
+      <div class="chat-footer">
+        <input type="text" id="chatInput" placeholder="Ask Kisan Mitra..." onkeypress="if(event.key==='Enter') sendKisanMsg()">
+        <button class="btn-primary" style="padding: 8px 14px;" onclick="sendKisanMsg()">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Script Engine -->
+  <script src="script.js"></script>
+</body>
+</html>
