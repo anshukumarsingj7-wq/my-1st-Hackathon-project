@@ -48,6 +48,14 @@
             <option value="kn">🌐 ಕನ್ನಡ (Kannada)</option>
             <option value="ta">🌐 தமிழ் (Tamil)</option>
             <option value="te">🌐 తెలుగు (Telugu)</option>
+            <option value="mr">🌐 मराठी (Marathi)</option>
+            <option value="bn">🌐 বাংলা (Bengali)</option>
+            <option value="gu">🌐 ગુજરાતી (Gujarati)</option>
+            <option value="pa">🌐 ਪੰਜਾਬੀ (Punjabi)</option>
+            <option value="ml">🌐 മലയാളം (Malayalam)</option>
+            <option value="or">🌐 ଓଡ଼ିଆ (Odia)</option>
+            <option value="as">🌐 অসমীয়া (Assamese)</option>
+            <option value="ur">🌐 اردو (Urdu)</option>
           </select>
         </div>
         
@@ -65,6 +73,23 @@
 
   <!-- MOBILE NAV DRAWER -->
   <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-lang-wrapper" style="padding: 10px 20px;">
+      <select id="mobileLanguageSelect" class="lang-select" style="width:100%;" onchange="changeLanguage(this.value)">
+        <option value="en">🌐 English</option>
+        <option value="hi">🌐 हिंदी (Hindi)</option>
+        <option value="kn">🌐 ಕನ್ನಡ (Kannada)</option>
+        <option value="ta">🌐 தமிழ் (Tamil)</option>
+        <option value="te">🌐 తెలుగు (Telugu)</option>
+        <option value="mr">🌐 मराठी (Marathi)</option>
+        <option value="bn">🌐 বাংলা (Bengali)</option>
+        <option value="gu">🌐 ગુજરાતી (Gujarati)</option>
+        <option value="pa">🌐 ਪੰਜਾਬੀ (Punjabi)</option>
+        <option value="ml">🌐 മലയാളം (Malayalam)</option>
+        <option value="or">🌐 ଓଡ଼ିଆ (Odia)</option>
+        <option value="as">🌐 অসমীয়া (Assamese)</option>
+        <option value="ur">🌐 اردو (Urdu)</option>
+      </select>
+    </div>
     <a href="#voice-assistant" onclick="toggleMobileMenu()" data-i18n="navVoice">Voice Assistant</a>
     <a href="#crop-doctor" onclick="toggleMobileMenu()" data-i18n="navCropDoctor">AI Crop Doctor</a>
     <a href="#weather" onclick="toggleMobileMenu()" data-i18n="navWeather">Weather Advisor</a>
