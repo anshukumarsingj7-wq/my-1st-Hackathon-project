@@ -1073,18 +1073,61 @@ function speakCurrentResponse() {
   }
 }
 
+function getBestVoiceForLocale(locale) {
+  if (!('speechSynthesis' in window)) return null;
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || voices.length === 0) return null;
+
+  const targetLang = locale.toLowerCase().split('-')[0];
+  
+  // 1. Try exact locale match with Google/Natural/Premium high clarity voice
+  let voice = voices.find(v => v.lang.toLowerCase().replace('_', '-') === locale.toLowerCase() && (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Premium')));
+  
+  // 2. Try exact locale match any voice
+  if (!voice) {
+    voice = voices.find(v => v.lang.toLowerCase().replace('_', '-') === locale.toLowerCase());
+  }
+
+  // 3. Try language prefix match (e.g. 'hi')
+  if (!voice) {
+    voice = voices.find(v => v.lang.toLowerCase().startsWith(targetLang) && (v.name.includes('Google') || v.name.includes('Natural')));
+  }
+
+  if (!voice) {
+    voice = voices.find(v => v.lang.toLowerCase().startsWith(targetLang));
+  }
+
+  return voice || null;
+}
+
 function speakText(text) {
   if (!('speechSynthesis' in window)) return;
   
-  // Cancel previous speech
+  // Cancel previous queued speech for instant clean playback
   window.speechSynthesis.cancel();
 
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = getLocaleForLang(currentLanguage);
-  utterance.rate = 0.95; // Slightly slower for clarity
-  utterance.pitch = 1.0;
+  const locale = getLocaleForLang(currentLanguage);
+  utterance.lang = locale;
+
+  // Crystal clear speech audio parameters
+  utterance.rate = 0.95;  // Moderate natural pace for rural comprehension
+  utterance.pitch = 1.0;  // Clean, distortion-free natural pitch
+  utterance.volume = 1.0; // Maximum output volume
+
+  const bestVoice = getBestVoiceForLocale(locale);
+  if (bestVoice) {
+    utterance.voice = bestVoice;
+  }
 
   window.speechSynthesis.speak(utterance);
+}
+
+// Pre-load voices on browser load for instant speech readiness
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {
+    window.speechSynthesis.getVoices();
+  };
 }
 
 /* ==========================================================================
