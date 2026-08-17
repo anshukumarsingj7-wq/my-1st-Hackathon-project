@@ -28,7 +28,7 @@ const translations = {
     heroCTA: "Start Farming Smart",
     heroSecondaryCTA: "Try AI Doctor",
     featVoice: "100% Voice Enabled",
-    featLang: "13 Native Languages",
+    featLang: "5 Regional Languages",
     featOffline: "Works Offline Demo",
     previewTitle: "Kisan Mitra AI Assistant",
     previewSub: "Namaste Farmer! How can I assist your crop today?",
@@ -42,7 +42,7 @@ const translations = {
     micTapPrompt: "Tap Microphone & Speak",
     micHintText: 'Example: "Kal barish hogi kya?" or "Mere tamatar me rog hai"',
     sampleTitle: "Or click any quick voice query below:",
-    inputPlaceholder: "Type your query in your native language or English...",
+    inputPlaceholder: "Type your query in Hindi/English...",
     btnAsk: "Ask AI",
     btnListen: "Listen Aloud",
     tagDoctor: "Feature 2",
@@ -136,7 +136,7 @@ const translations = {
     heroCTA: "स्मार्ट खेती शुरू करें",
     heroSecondaryCTA: "रोग जांच करें",
     featVoice: "100% आवाज़ चालित",
-    featLang: "13 भारतीय भाषाएं",
+    featLang: "5 क्षेत्रीय भाषाएं",
     featOffline: "बिना इंटरनेट सुलभ",
     previewTitle: "किसान मित्र AI सहायक",
     previewSub: "नमस्ते किसान भाई! आज आपकी फसल के लिए क्या सहायता करूं?",
@@ -150,7 +150,7 @@ const translations = {
     micTapPrompt: "माइक दबाएं और बोलें",
     micHintText: 'उदाहरण: "कल बारिश होगी क्या?" या "मेरे टमाटर में रोग है"',
     sampleTitle: "या नीचे दिए गए प्रश्नों पर क्लिक करें:",
-    inputPlaceholder: "अपनी भाषा या हिंदी में सवाल लिखें...",
+    inputPlaceholder: "हिंदी या अंग्रेजी में अपना सवाल लिखें...",
     btnAsk: "सवाल पूछें",
     btnListen: "आवाज़ में सुनें",
     tagDoctor: "सुविधा 2",
@@ -244,7 +244,7 @@ const translations = {
     heroCTA: "ಸ್ಮಾರ್ಟ್ ಕೃಷಿ ಪ್ರಾರಂಭಿಸಿ",
     heroSecondaryCTA: "ಬೆಳೆ ಪರಿಶೀಲಿಸಿ",
     featVoice: "100% ಧ್ವನಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ",
-    featLang: "13 ಮಾತೃಭಾಷೆಗಳು",
+    featLang: "5 ಪ್ರಾದೇಶಿಕ ಭಾಷೆಗಳು",
     featOffline: "ಆಫ್‌ಲೈನ್ ಬೆಂಬಲ",
     previewTitle: "ಕಿಸಾನ್ ಮಿತ್ರ AI",
     previewSub: "ನಮಸ್ಕಾರ ರೈತ ಬಂಧುವೇ! ಇಂದು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಲಿ?",
@@ -257,7 +257,7 @@ const translations = {
     subVoice: "ಮೈಕ್ರೋಫೋನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ನಿಮ್ಮ ಕನ್ನಡ ಭಾಷೆಯಲ್ಲೇ ಮಾತನಾಡಿ.",
     micTapPrompt: "ಮೈಕ್ ಒತ್ತಿ ಮಾತನಾಡಿ",
     micHintText: 'ಉದಾಹರಣೆಗೆ: "ನಾಳೆ ಮಳೆ ಬರುತ್ತದೆಯೇ?"',
-    inputPlaceholder: "ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಕನ್ನಡದಲ್ಲಿ ಬರೆಯಿರಿ...",
+    inputPlaceholder: "ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಇಲ್ಲಿ ಬರೆಯಿರಿ...",
     btnAsk: "ಪ್ರಶ್ನಿಸಿ",
     btnListen: "ಧ್ವನಿಯಲ್ಲಿ ಕೇಳಿ",
     tagDoctor: "ವೈಶಿಷ್ಟ್ಯ 2",
@@ -298,7 +298,7 @@ const translations = {
     heroCTA: "விவசாயத்தை தொடங்குங்கள்",
     heroSecondaryCTA: "நோயைக் கண்டறியவும்",
     featVoice: "100% குரல் வழி இயக்கம்",
-    featLang: "13 தாய்மொழிகள்",
+    featLang: "5 மாநில மொழிகள்",
     featOffline: "ஆஃப்லைன் ஆதரவு",
     previewTitle: "கிசான் மித்ரா AI",
     previewSub: "வணக்கம் விவசாயி! இன்று உங்களுக்கு எவ்வாறு உதவட்டும்?",
@@ -311,7 +311,7 @@ const translations = {
     subVoice: "மைக் பொத்தானை அழுத்தி தமிழில் பேசுங்கள்.",
     micTapPrompt: "மைக்கை அழுத்தி பேசவும்",
     micHintText: 'உதாரணம்: "நாளை மழை பெய்யுமா?"',
-    inputPlaceholder: "உங்கள் கேள்வியை தமிழில் தட்டச்சு செய்க...",
+    inputPlaceholder: "உங்கள் கேள்வியை தட்டச்சு செய்க...",
     btnAsk: "கேட்கவும்",
     btnListen: "குரலில் கேட்கவும்",
     tagDoctor: "அம்சம் 2",
@@ -352,7 +352,7 @@ const translations = {
     heroCTA: "స్మార్ట్ వ్యవసాయం ప్రారంభించండి",
     heroSecondaryCTA: "పంటను తనిఖీ చేయండి",
     featVoice: "100% వాయిస్ మద్దతు",
-    featLang: "13 మాతృభాషలు",
+    featLang: "5 ప్రాంతీయ భాషలు",
     featOffline: "ఆఫ్‌లైన్ సపోర్ట్",
     previewTitle: "కిసాన్ మిత్ర AI",
     previewSub: "నమస్తే రైతు సోదరా! ఈరోజు మీకు ఎలాంటి సాయం కావాలి?",
@@ -365,7 +365,7 @@ const translations = {
     subVoice: "మైక్ బటన్ నొక్కి మీ తెలుగు భాషలోనే మాట్లాడండి.",
     micTapPrompt: "మైక్ నొక్కి మాట్లాడండి",
     micHintText: 'ఉదాహరణ: "రేపు వర్షం పడుతుందా?"',
-    inputPlaceholder: "మీ ప్రశ్నను తెలుగులో టైప్ చేయండి...",
+    inputPlaceholder: "మీ ప్రశ్నను ఇక్కడ టైప్ చేయండి...",
     btnAsk: "అడగండి",
     btnListen: "వాయిస్‌లో వినండి",
     tagDoctor: "ఫీచర్ 2",
@@ -765,7 +765,7 @@ const translations = {
     subSchemes: "আপোনাৰ মাটিৰ মাপ মতে আঁচনি বিচাৰক।",
     titleEmergency: "জৰুৰী সাহায্য (SOS)",
     subEmergency: "পোকৰ আক্ৰমণ বা বানপানীৰ সময়ত সহায়।",
-    tagImpact: "প্ৰকৃত ফলাফল",
+    tagImpact: "প୍ରকৃত ফলাফল",
     titleImpact: "হেজাৰ হেজাৰ অসমীয়া কৃষকৰ বিশ্বাস",
     footerDesc: "ভাৰতীয় কৃষিৰ বাবে তৈয়াৰ কৰা AI মঞ্চ।",
     kisanTitle: "কিসান মিত্র AI",
@@ -832,7 +832,7 @@ function changeLanguage(langCode) {
   currentLanguage = langCode;
   const langData = translations[langCode] || translations['en'];
 
-  // Sync desktop and mobile select dropdowns
+  // Sync select dropdowns
   const desktopSelect = document.getElementById('languageSelect');
   const mobileSelect = document.getElementById('mobileLanguageSelect');
   if (desktopSelect) desktopSelect.value = langCode;
@@ -874,160 +874,6 @@ function getLocaleForLang(langCode) {
     case 'or': return 'or-IN';
     case 'as': return 'as-IN';
     case 'ur': return 'ur-IN';
-    default: return 'en-US';
-  }
-}ತವಾದ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳನ್ನು ಹುಡುಕಿ.",
-    titleEmergency: "ರೈತರ ತುರ್ತು ಸಹಾಯ (SOS)",
-    subEmergency: "ಕೀಟ ದಾಳಿ ಅಥವಾ ನೆರೆ ಹಾವಳಿಯ ಸಂದರ್ಭದಲ್ಲಿ ತಕ್ಷಣದ ನೆರವು.",
-    tagImpact: "ನೈಜ ಫಲಿತಾಂಶಗಳು",
-    titleImpact: "ಸಾವಿರಾರು ರೈತರ ನೆಚ್ಚಿನ ಕೃಷಿ ಆಪ್",
-    footerDesc: "ಭಾರತೀಯ ರೈತರಿಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಆಧಾರಿತ ಕೃಷಿ ತಂತ್ರಜ್ಞಾನ.",
-    kisanTitle: "ಕಿಸಾನ್ ಮಿತ್ರ AI",
-    kisanGreet: "ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ AI ಕಿಸಾನ್ ಮಿತ್ರ. ಇಂದು ನಿಮಗೆ ಏನು ಸಹಾಯ ಬೇಕು?"
-  },
-  ta: {
-    navVoice: "குரல் உதவியாளர்",
-    navCropDoctor: "AI பயிர் மருத்துவர்",
-    navWeather: "வானிலை ஆலோசனை",
-    navFertilizer: "உர கணக்கீடு",
-    navMandi: "சந்தை விலை",
-    navSchemes: "அரசு திட்டங்கள்",
-    navSOS: "🚨 அவசர உதவி",
-    heroTitle: "செயற்கை நுண்ணறிவு மூலம் விவசாயிகளை மேம்படுத்துதல்",
-    heroDesc: "உங்கள் ஸ்மார்ட் விவசாய உதவியாளர். பயிர் நோய்களை உடனுக்குடன் கண்டறியவும்.",
-    heroCTA: "விவசாயத்தை தொடங்குங்கள்",
-    heroSecondaryCTA: "நோயைக் கண்டறியவும்",
-    featVoice: "100% குரல் வழி இயக்கம்",
-    featLang: "5 மாநில மொழிகள்",
-    featOffline: "ஆஃப்லைன் ஆதரவு",
-    previewTitle: "கிசான் மித்ரா AI",
-    previewSub: "வணக்கம் விவசாயி! இன்று உங்களுக்கு எவ்வாறு உதவட்டும்?",
-    prompt1: "தக்காளி இலை புள்ளி",
-    prompt2: "நாளை மழை பெய்யுமா?",
-    prompt3: "கோதுமை சந்தை விலை",
-    prompt4: "நெல்லுக்கு சிறந்த உரம்",
-    tagVoice: "அம்சம் 1",
-    titleVoice: "ஸ்மார்ட் குரல் உதவியாளர்",
-    subVoice: "மைக் பொத்தானை அழுத்தி தமிழில் பேசுங்கள்.",
-    micTapPrompt: "மைக்கை அழுத்தி பேசவும்",
-    micHintText: 'உதாரணம்: "நாளை மழை பெய்யுமா?"',
-    inputPlaceholder: "உங்கள் கேள்வியை தட்டச்சு செய்க...",
-    btnAsk: "கேட்கவும்",
-    btnListen: "குரலில் கேட்கவும்",
-    tagDoctor: "அம்சம் 2",
-    titleDoctor: "AI பயிர் மருத்துவர்",
-    subDoctor: "இலையின் புகைப்படத்தைப் பதிவேற்றி நோய் தீர்வினைப் பெறுங்கள்.",
-    uploadTitle: "இலை புகைப்படத்தை பதிவேற்றவும்",
-    uploadSub: "JPG, PNG கோப்புகள் ஆதரவு",
-    tagWeather: "அம்சம் 3",
-    titleWeather: "வானிலை மற்றும் பாசன ஆலோசனை",
-    subWeather: "வானிலைக்கு ஏற்ப விவசாய முடிவுகளை எடுங்கள்.",
-    tagFertilizer: "அம்சம் 4",
-    titleFertilizer: "உர பரிந்துரை",
-    subFertilizer: "சரியான உர அளவை கணக்கிடுங்கள்.",
-    tagMandi: "அம்சம் 5",
-    titleMandi: "சந்தை விலை நிலவரம்",
-    subMandi: "நேரலை சந்தை விலைகள் மற்றும் விற்பனை ஆலோசனைகள்.",
-    tagSchemes: "அம்சம் 6",
-    titleSchemes: "அரசு திட்டங்கள்",
-    subSchemes: "விவசாய மானியங்கள் மற்றும் கடன் திட்டங்கள்.",
-    titleEmergency: "அவசர உதவி (SOS)",
-    subEmergency: "வெட்டுக்கிளி தாக்குதல் அல்லது வெள்ளம் ஏற்படும் போது அவசர உதவி.",
-    tagImpact: "உண்மையான பலன்கள்",
-    titleImpact: "ஆயிரக்கணக்கான விவசாயிகளின் நம்பிக்கை",
-    footerDesc: "இந்திய விவசாயிகளுக்கான AI தொழில்நுட்ப மையம்.",
-    kisanTitle: "கிசான் மித்ரா AI",
-    kisanGreet: "வணக்கம்! நான் உங்கள் கிசான் மித்ரா. இன்று உங்களுக்கு என்ன உதவி தேவை?"
-  },
-  te: {
-    navVoice: "వాయిస్ అసిస్టెంట్",
-    navCropDoctor: "AI పంట డాక్టర్",
-    navWeather: "వాతావరణ సలహా",
-    navFertilizer: "ఎరువుల లెక్కింపు",
-    navMandi: "మార్కెట్ ధరలు",
-    navSchemes: "ప్రభుత్వ పథకాలు",
-    navSOS: "🚨 అత్యవసర సాయం",
-    heroTitle: "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ ద్వారా రైతుల సాధికారత",
-    heroDesc: "మీ స్మార్ట్ వ్యవసాయ మిత్రుడు. పంట తెగుళ్లను వాయిస్ ద్వారా సులభంగా గుర్తించండి.",
-    heroCTA: "స్మార్ట్ వ్యవసాయం ప్రారంభించండి",
-    heroSecondaryCTA: "పంటను తనిఖీ చేయండి",
-    featVoice: "100% వాయిస్ మద్దతు",
-    featLang: "5 ప్రాంతీయ భాషలు",
-    featOffline: "ఆఫ్‌లైన్ సపోర్ట్",
-    previewTitle: "కిసాన్ మిత్ర AI",
-    previewSub: "నమస్తే రైతు సోదరా! ఈరోజు మీకు ఎలాంటి సాయం కావాలి?",
-    prompt1: "టమోటా ఆకు మచ్చలు",
-    prompt2: "రేపు వర్షం పడుతుందా?",
-    prompt3: "గోధుమల మార్కెట్ ధర",
-    prompt4: "వరికి ఉత్తమ ఎరువులు",
-    tagVoice: "ఫీచర్ 1",
-    titleVoice: "స్మార్ట్ వాయిస్ అసిస్టెంట్",
-    subVoice: "మైక్ బటన్ నొక్కి మీ తెలుగు భాషలోనే మాట్లాడండి.",
-    micTapPrompt: "మైక్ నొక్కి మాట్లాడండి",
-    micHintText: 'ఉదాహరణ: "రేపు వర్షం పడుతుందా?"',
-    inputPlaceholder: "మీ ప్రశ్నను ఇక్కడ టైప్ చేయండి...",
-    btnAsk: "అడగండి",
-    btnListen: "వాయిస్‌లో వినండి",
-    tagDoctor: "ఫీచర్ 2",
-    titleDoctor: "AI పంట డాక్టర్",
-    subDoctor: "ఆకు ఫోటో అప్‌లోడ్ చేసి తక్షణమే నివారణ చర్యలు తెలుసుకోండి.",
-    uploadTitle: "ఆకు ఫోటో అప్‌లోడ్ చేయండి",
-    uploadSub: "JPG, PNG ఫైల్స్ సపోర్ట్ చేయబడతాయి",
-    tagWeather: "ఫీచర్ 3",
-    titleWeather: "వాతావరణ మరియు నీటిపారుదల సలహా",
-    subWeather: "వాతావరణ మార్పులకు అనుగుణంగా వ్యవసాయ సలహాలు.",
-    tagFertilizer: "ఫీచర్ 4",
-    titleFertilizer: "ఎరువుల సిఫార్సు",
-    subFertilizer: "పంట మరియు నేల స్వభావాన్ని బట్టి సరైన ఎరువుల లెక్కింపు.",
-    tagMandi: "ఫీచర్ 5",
-    titleMandi: "మార్కెట్ ధరల డాష్‌బోర్డ్",
-    subMandi: "లైవ్ మార్కెట్ రేట్లు మరియు అమ్మకపు సలహాలు.",
-    tagSchemes: "ఫీచర్ 6",
-    titleSchemes: "ప్రభుత్వ పథకాలు",
-    subSchemes: "మీ భూమి పరిమాణానికి సరిపోయే పథకాలను కనుగొనండి.",
-    titleEmergency: "అత్యవసర సహాయం (SOS)",
-    subEmergency: "మిడతల దాడి లేదా వరదల సమయంలో తక్షణ అత్యవసర చర్యలు.",
-    tagImpact: "నిజమైన ఫలితాలు",
-    titleImpact: "వేలాది మంది రైతుల నమ్మకం",
-    footerDesc: "భారతీయ రైతుల కోసం రూపొందించబడిన ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ అసిస్టెంట్.",
-    kisanTitle: "కిసాన్ మిత్ర AI",
-    kisanGreet: "నమస్తే! నేను మీ AI కిసాన్ మిత్ర. ఈరోజు మీకు ఏ సాయం కావాలి?"
-  }
-};
-
-/* Language Switcher Engine */
-function changeLanguage(langCode) {
-  currentLanguage = langCode;
-  const langData = translations[langCode] || translations['en'];
-
-  // Update all elements with data-i18n
-  document.querySelectorAll('[data-i18n]').forEach(elem => {
-    const key = elem.getAttribute('data-i18n');
-    if (langData[key]) {
-      elem.innerText = langData[key];
-    }
-  });
-
-  // Update placeholders
-  document.querySelectorAll('[data-i18n-placeholder]').forEach(elem => {
-    const key = elem.getAttribute('data-i18n-placeholder');
-    if (langData[key]) {
-      elem.placeholder = langData[key];
-    }
-  });
-
-  // Update voice synthesis pitch/locale
-  if (recognition) {
-    recognition.lang = getLocaleForLang(langCode);
-  }
-}
-
-function getLocaleForLang(langCode) {
-  switch (langCode) {
-    case 'hi': return 'hi-IN';
-    case 'kn': return 'kn-IN';
-    case 'ta': return 'ta-IN';
-    case 'te': return 'te-IN';
     default: return 'en-US';
   }
 }
@@ -1119,536 +965,94 @@ function processTextQuery() {
   }
 }
 
-/* Native Multilingual AI Assistant Response Engine */
-const nativeResponses = {
-  disease: {
-    en: {
-      label: "Crop Disease Diagnosis",
-      speech: "Leaf spot fungal infection detected in your crop. Spray Mancozeb 75% WP at 2 grams per litre of water immediately.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">Detected: Leaf Spot Fungal Infection</h4>
-             <p>Your crop symptoms indicate early fungal leaf blight due to high moisture.</p>
-             <ul class="solution-steps">
-               <li><strong>Immediate Spray:</strong> Spray Mancozeb 75% WP @ 2g/litre of water immediately.</li>
-               <li><strong>Organic Remedy:</strong> Spray Neem Oil (10,000 PPM) 5ml per litre in evening hours.</li>
-               <li><strong>Precaution:</strong> Remove infected lower yellow leaves to stop spore spreading.</li>
-             </ul>`
-    },
-    hi: {
-      label: "फसल रोग निदान",
-      speech: "आपकी फसल में पत्तियों के धब्बे (फफूंद रोग) के लक्षण हैं। मैंकोजेब 75% WP दो ग्राम प्रति लीटर पानी में मिलाकर तुरंत छिड़काव करें।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">पहचाना गया: लीफ स्पॉट फफूंद रोग (Leaf Spot)</h4>
-             <p>अत्यधिक नमी के कारण फसल में अगेती झुलसा के लक्षण हैं।</p>
-             <ul class="solution-steps">
-               <li><strong>तुरंत छिड़काव:</strong> 2 ग्राम/लीटर मैंकोजेब 75% WP का छिड़काव करें।</li>
-               <li><strong>जैविक उपाय:</strong> शाम को नीम का तेल (10,000 PPM) 5 मि.ली./लीटर छिड़कें।</li>
-               <li><strong>सावधानी:</strong> संक्रमित पीले पत्तों को तोड़कर दूर नष्ट करें।</li>
-             </ul>`
-    },
-    kn: {
-      label: "ಬೆಳೆ ರೋಗ ಪತ್ತೆ",
-      speech: "ನಿಮ್ಮ ಬೆಳೆಯಲ್ಲಿ ಎಲೆ ಚುಕ್ಕೆ ಶಿಲೀಂಧ್ರ ರೋಗ ಕಂಡುಬಂದಿದೆ. ಮ್ಯಾಂಕೋಜೆಬ್ 75% WP ಅನ್ನು 2 ಗ್ರಾಂ ಪ್ರತಿ ಲೀಟರ್ ನೀರಿಗೆ ಬೆರೆಸಿ ತಕ್ಷಣ ಸಿಂಪಡಿಸಿ.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ಪತ್ತೆಯಾಗಿದೆ: ಎಲೆ ಚುಕ್ಕೆ ಶಿಲೀಂಧ್ರ ರೋಗ</h4>
-             <p>ಹೆಚ್ಚಿನ ತೇವಾಂಶದಿಂದಾಗಿ ಬೆಳೆಗೆ ಶಿಲೀಂಧ್ರ ಬಾಧೆ ಉಂಟಾಗಿದೆ.</p>
-             <ul class="solution-steps">
-               <li><strong>ತಕ್ಷಣದ ಔಷಧ:</strong> 2 ಗ್ರಾಂ/ಲೀಟರ್ ಮ್ಯಾಂಕೋಜೆಬ್ 75% ಸಿಂಪಡಿಸಿ.</li>
-               <li><strong>ಸಾವಯವ ಪರಿಹಾರ:</strong> ಸಂಜೆ 5 ಮಿಲಿ ಬೇಪಿನ ಎಣ್ಣೆ ಸಿಂಪಡಿಸಿ.</li>
-             </ul>`
-    },
-    ta: {
-      label: "பயிர் நோய் கண்டறிதல்",
-      speech: "உங்கள் பயிரில் இலைப்புள்ளி பூஞ்சை நோய் கண்டறியப்பட்டுள்ளது. மேன்கோசெப் 75% WP 2 கிராம்/லிட்டர் தண்ணீரில் கலந்து உடனே தெளிக்கவும்.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">கண்டறியப்பட்டது: இலைப்புள்ளி பூஞ்சை நோய்</h4>
-             <p>அதிக ஈரப்பதம் காரணமாக பயிரில் பூஞ்சை நோய் ஏற்பட்டுள்ளது.</p>
-             <ul class="solution-steps">
-               <li><strong>உடனடி தெளிப்பு:</strong> மேன்கோசெப் 75% WP 2 கிராம்/லிட்டர் தெளிக்கவும்.</li>
-               <li><strong>இயற்கை மருந்து:</strong> வேப்ப எண்ணெய் 5 மி.லி/லிட்டர் தெளிக்கவும்.</li>
-             </ul>`
-    },
-    te: {
-      label: "పంట తెగులు నిర్ధారణ",
-      speech: "మీ పంటలో ఆకు మచ్చల శిలీంధ్ర తెగులు గుర్తించబడింది. లీటరు నీటికి 2 గ్రాముల మ్యాంకోజెబ్ 75% WP వెంటనే పిచికారీ చేయండి.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">గుర్తించబడింది: ఆకు మచ్చల ఫంగల్ తెగులు</h4>
-             <p>అధిక తేమ వల్ల ఆకు మచ్చ తెగులు ఆవహించింది.</p>
-             <ul class="solution-steps">
-               <li><strong>తక్షణ పిచికారీ:</strong> లీటరు నీటికి 2 గ్రాముల మ్యాంకోజెబ్ చల్లండి.</li>
-               <li><strong>సేంద్రీయ లెక్కింపు:</strong> సాయంత్రం వేప నూనె 5ml/L పిచికారీ చేయండి.</li>
-             </ul>`
-    },
-    mr: {
-      label: "पीक रोग निदान",
-      speech: "तुमच्या पिकावर पानावरील ठिपके (बुरशीजन्य रोग) आढळले आहेत. मँकोझेब ७५% डब्ल्यूपी २ ग्रॅम प्रति लिटर पाण्यात मिसळून तात्काळ फवारणी करा.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">निदान: पानांवरील ठिपके बुरशीजन्य रोग</h4>
-             <p>जास्त दमट हवामानामुळे पिकावर बुरशीचा प्रादुर्भाव झाला आहे.</p>
-             <ul class="solution-steps">
-               <li><strong>तात्काळ फवारणी:</strong> मँकोझेब ७५% डब्ल्यूपी २ ग्रॅम/लिटर पाण्यात मिसळून फवारा.</li>
-               <li><strong>जैविक उपाय:</strong> संध्याकाळी कडुलिंब तेल ५ मि.ली./लिटर फवारा.</li>
-             </ul>`
-    },
-    bn: {
-      label: "শস্য রোগ শনাক্তকরণ",
-      speech: "আপনার ফসলে পাতার দাগ ছত্রাকজনিত রোগ শনাক্ত হয়েছে। ম্যানকোজেব ৭৫% ডাব্লিউপি প্রতি লিটার জলে ২ গ্রাম মিশিয়ে অবিলম্বে স্প্রে করুন।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">শনাক্ত করা হয়েছে: পাতার দাগ ছত্রাক রোগ</h4>
-             <p>অতিরিক্ত আর্দ্রতার কারণে ফসলে ছত্রাকের সংক্রমণ ঘটেছে।</p>
-             <ul class="solution-steps">
-               <li><strong>অবিলম্বে স্প্রে:</strong> প্রতি লিটার জলে ২ গ্রাম ম্যানকোজেব ৭৫% স্প্রে করুন।</li>
-               <li><strong>জৈব প্রতিকার:</strong> বিকেলে নিম তেল ৫ মি.লি./লিটার প্রয়োগ করুন।</li>
-             </ul>`
-    },
-    gu: {
-      label: "પાક રોગ નિદાન",
-      speech: "તમારા પાકમાં પાંદડાના ટપકા (ફૂગનો રોગ) જોવા મળ્યો છે. મેન્કોઝેબ 75% WP પ્રતિ લીટર પાણીમાં 2 ગ્રામ ભેળવીને તાત્કાલિક છંટકાવ કરો.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">નિદાન: પાંદડાના ટપકાંનો ફૂગ રોગ</h4>
-             <p>વધુ ભેજને કારણે પાકમાં ફૂગનો ઉપદ્રવ થયો છે.</p>
-             <ul class="solution-steps">
-               <li><strong>તાત્કાલિક છંટકાવ:</strong> મેન્કોઝેબ 75% WP 2 ગ્રામ/લીટર પાણીમાં છાંટો.</li>
-               <li><strong>જૈવિક ઉપાય:</strong> સાંજે લીમડાનું તેલ 5ml/લીટર વાપરો.</li>
-             </ul>`
-    },
-    pa: {
-      label: "ਫ਼ਸਲ ਰੋਗ ਨਿਦਾਨ",
-      speech: "ਤੁਹਾਡੀ ਫ਼ਸਲ ਵਿੱਚ ਪੱਤਿਆਂ ਦੇ ਧੱਬੇ (ਫੰਗਲ ਰੋਗ) ਪਾਏ ਗਏ ਹਨ। ਮੈਨਕੋਜ਼ੇਬ 75% WP 2 ਗ੍ਰਾਮ ਪ੍ਰਤੀ ਲੀਟਰ ਪਾਣੀ ਵਿੱਚ ਮਿਲਾ ਕੇ ਤੁਰੰਤ ਛਿੜਕਾਅ ਕਰੋ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ਸ਼ਨਾਖਤ: ਪੱਤਿਆਂ ਦੇ ਧੱਬੇ ਦੀ ਫੰਗਲ ਇਨਫੈਕਸ਼ਨ</h4>
-             <p>ਜ਼ਿਆਦਾ ਨਮੀ ਕਾਰਨ ਫ਼ਸਲ 'ਤੇ ਫੰਗਸ ਦਾ ਹਮਲਾ ਹੋਇਆ ਹੈ।</p>
-             <ul class="solution-steps">
-               <li><strong>ਤੁਰੰਤ ਛਿੜਕਾਅ:</strong> 2 ਗ੍ਰਾਮ/ਲੀਟਰ ਮੈਨਕੋਜ਼ੇਬ 75% WP ਦਾ ਛਿੜਕਾਅ ਕਰੋ।</li>
-               <li><strong>ਜੈਵਿਕ ਹੱਲ:</strong> ਸ਼ਾਮ ਨੂੰ ਨਿੰਮ ਦਾ ਤੇਲ 5ml/ਲੀਟਰ ਛਿੜਕੋ।</li>
-             </ul>`
-    },
-    ml: {
-      label: "വിള രോഗ നിർണയം",
-      speech: "നിങ്ങളുടെ വിളയിൽ ഇലപ്പുള്ളി ഫംഗസ് രോഗം കണ്ടത്തിയിരിക്കുന്നു. മാങ്കോസെബ് 75% WP ലിറ്ററിന് 2 ഗ്രാം വീതം ചേർത്ത് ഉടനടി തളിക്കുക.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">കണ്ടെത്തിയിരിക്കുന്നു: ഇലപ്പുള്ളി ഫംഗസ് രോഗം</h4>
-             <p>അമിത ഈർപ്പം കാരണം ഫംഗസ് ബാധ ഉണ്ടായിരിക്കുന്നു.</p>
-             <ul class="solution-steps">
-               <li><strong>ഉടനടി തളിക്കാൻ:</strong> മാങ്കോസെബ് 75% WP ലിറ്ററിന് 2 ഗ്രാം തളിക്കുക.</li>
-               <li><strong>ജൈവ രീതി:</strong> വൈകുന്നേരം വേപ്പെണ്ണ 5ml/L തളിക്കുക.</li>
-             </ul>`
-    },
-    or: {
-      label: "ଫସଲ ରୋଗ ଚିହ୍ନଟ",
-      speech: "ଆପଣଙ୍କ ଫସଲରେ ପତ୍ର ଦାଗ ଫଙ୍ଗସ ରୋଗ ଚିହ୍ନଟ ହୋଇଛି। ମ୍ୟାଙ୍କୋଜେବ ୭୫% WP ଲିଟର ପ୍ରତି ୨ ଗ୍ରାମ ମିଶାଇ ତୁରନ୍ତ ସ୍ପ୍ରେ କରନ୍ତୁ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ଚିହ୍ନଟ: ପତ୍ର ଦାଗ ଫଙ୍ଗାଲ୍ ରୋଗ</h4>
-             <p>ଅଧିକ ଆର୍ଦ୍ରତା ହେତୁ ଫସଲରେ ଫଙ୍ଗସ୍ ସଂକ୍ରମଣ ହୋଇଛି।</p>
-             <ul class="solution-steps">
-               <li><strong>ତୁରନ୍ତ ସ୍ପ୍ରେ:</strong> ଲିଟର ପ୍ରତି ୨ ଗ୍ରାମ ମ୍ୟାଙ୍କୋଜେବ ସ୍ପ୍ରେ କରନ୍ତୁ।</li>
-               <li><strong>ଜୈବିକ ଉପାୟ:</strong> ସନ୍ଧ୍ୟାରେ ନିମ୍ବ ତେଲ ୫ml/L ବ୍ୟବହାର କରନ୍ତୁ।</li>
-             </ul>`
-    },
-    as: {
-      label: "শস্য ৰোগ চিনাক্তকৰণ",
-      speech: "আপোনাৰ শস্যত পাতৰ দাগ ফাংগেল ৰোগ ধৰা পৰিছে। মেনকোজেব ৭৫% WP প্রতি লিটাৰ পানীত ২ গ্ৰাম মিহলাই লগে লগে স্প্ৰে কৰক।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">চিনাক্ত হ'ল: পাতৰ দাগ ফাংগেল ৰোগ</h4>
-             <p>অধিক আৰ্দ্ৰতাৰ বাবে শস্যত ভেঁকুৰৰ সংক্ৰমণ হৈছে।</p>
-             <ul class="solution-steps">
-               <li><strong>লগে লগে স্প্ৰে কৰক:</strong> ২ গ্ৰাম/লিটাৰ মেনকোজেব ৭৫% WP স্প্ৰে কৰক।</li>
-               <li><strong>জৈৱিক উপায়:</strong> গধূলি নিম তেল ৫ml/লিটাৰ স্প্ৰে কৰক।</li>
-             </ul>`
-    },
-    ur: {
-      label: "فصل کی بیماری کی تشخیص",
-      speech: "آپ کی فصل میں پتوں کے دھبے کی فنگل بیماری تشخیص ہوئی ہے۔ مینکوزیب 75٪ ڈبلیو پی 2 گرام فی لیٹر پانی میں ملا کر فوری اسپرے کریں۔",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">تشخیص: پتوں کے دھبے کی فنگل بیماری</h4>
-             <p>زیادہ نمی کی وجہ سے فصل میں فنگس کا حملہ ہوا ہے۔</p>
-             <ul class="solution-steps">
-               <li><strong>فوری اسپرے:</strong> مینکوزیب 75٪ ڈبلیو پی 2 گرام فی لیٹر پانی اسپرے کریں۔</li>
-               <li><strong>نامیاتی علاج:</strong> شام کو نیم کا تیل 5 ملی لیٹر فی لیٹر اسپرے کریں۔</li>
-             </ul>`
-    }
-  },
-  weather: {
-    en: {
-      label: "Weather Forecast Alert",
-      speech: "Tomorrow expect 15% rain probability with mild cloud cover. Safe to irrigate crops today morning.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">Weather Advisory: Partly Cloudy (15% Rain Chance)</h4>
-             <p>Tomorrow will remain partly cloudy with light wind speeds (12 km/h).</p>
-             <ul class="solution-steps">
-               <li><strong>Irrigation:</strong> ✅ Safe to irrigate crops today morning.</li>
-               <li><strong>Spraying:</strong> ❌ Avoid heavy pesticide spraying due to moderate wind drift.</li>
-             </ul>`
-    },
-    hi: {
-      label: "मौसम सलाह चेतावनी",
-      speech: "कल आपके क्षेत्र में 15 प्रतिशत बारिश की संभावना है। आसमान में हल्के बादल रहेंगे। आज सुबह सिंचाई करना सुरक्षित है।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">मौसम सलाह: आंशिक बादल (15% बारिश संभावना)</h4>
-             <p>कल हल्की हवा (12 किमी/घंटा) के साथ मौसम सुहावना रहेगा।</p>
-             <ul class="solution-steps">
-               <li><strong>सिंचाई:</strong> ✅ आज सुबह सिंचाई करना सुरक्षित है।</li>
-               <li><strong>छिड़काव:</strong> ❌ तेज हवा के कारण कीटनाशक का छिड़काव न करें।</li>
-             </ul>`
-    },
-    kn: {
-      label: "ಹವಾಮಾನ ಮುನ್ಸೂಚನೆ",
-      speech: "ನಾಳೆ ನಿಮ್ಮ ಪ್ರದೇಶದಲ್ಲಿ 15% ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆಯಿದೆ. ಇಂದು ಬೆಳಿಗ್ಗೆ ಬೆಳೆಗೆ ನೀರು ಹಾಯಿಸುವುದು ಸುರಕ್ಷಿತ.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ಹವಾಮಾನ ಮುನ್ಸೂಚನೆ: ಭಾಗಶಃ ಮೋಡ (15% ಮಳೆ ಸಾಧ್ಯತೆ)</h4>
-             <ul class="solution-steps">
-               <li><strong>ನೀರಾವರಿ:</strong> ✅ ಇಂದು ಬೆಳಿಗ್ಗೆ ನೀರು ಉಣಿಸುವುದು ಸೂಕ್ತ.</li>
-             </ul>`
-    },
-    ta: {
-      label: "வானிலை அறிக்கை",
-      speech: "நாளை 15% மழை பெய்ய வாய்ப்புள்ளது. இன்று காலை பயிர்களுக்கு நீர் பாய்ச்சுவது பாதுகாப்பானது.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">வானிலை அறிக்கை: 15% மழை வாய்ப்பு</h4>
-             <ul class="solution-steps">
-               <li><strong>பாசனம்:</strong> ✅ இன்று காலை நீர் பாய்ச்சலாம்.</li>
-             </ul>`
-    },
-    te: {
-      label: "వాతావరణ హెచ్చరిక",
-      speech: "రేపు మీ ప్రాంతంలో 15% వర్షం పడే అవకాశం ఉంది. ఈరోజు ఉదయం నీటిపారుదల చేయడం సురక్షితం.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">వాతావరణ నివేదిక: 15% వర్ష సూచన</h4>
-             <ul class="solution-steps">
-               <li><strong>నీటిపారుదల:</strong> ✅ ఈరోజు ఉదయం నీరు అందించడం మంచిది.</li>
-             </ul>`
-    },
-    mr: {
-      label: "हवामान इशारा",
-      speech: "उद्या १५ टक्के पावसाची शक्यता आहे. आज सकाळी पिकाला पाणी देणे सुरक्षित आहे.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">हवामान अंदाज: १५% पावसाची शक्यता</h4>
-             <ul class="solution-steps">
-               <li><strong>सिंचन:</strong> ✅ आज सकाळी पिकाला पाणी देणे योग्य.</li>
-             </ul>`
-    },
-    bn: {
-      label: "আবহাওয়া সতর্কতা",
-      speech: "আগামীকাল ১৫% বৃষ্টির সম্ভাবনা রয়েছে। আজ সকালে ফসলে সেচ দেওয়া নিরাপদ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">আবহাওয়া পরামর্শ: ১৫% বৃষ্টির সম্ভাবনা</h4>
-             <ul class="solution-steps">
-               <li><strong>সেচ:</strong> ✅ আজ সকালে সেচ দেওয়া নিরাপদ।</li>
-             </ul>`
-    },
-    gu: {
-      label: "હવામાન સલાહ",
-      speech: "આવતીકાલે 15% વરસાદની શક્યતા છે. આજે સવારે પાકમાં પિયત આપવું સુરક્ષિત છે.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">હવામાન આગાહી: 15% વરસાદની શક્યતા</h4>
-             <ul class="solution-steps">
-               <li><strong>પિયત:</strong> ✅ આજે સવારે પિયત આપી શકાય.</li>
-             </ul>`
-    },
-    pa: {
-      label: "ਮੌਸਮ ਚੇਤਾਵਨੀ",
-      speech: "ਕੱਲ੍ਹ 15% ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ ਹੈ। ਅੱਜ ਸਵੇਰੇ ਫ਼ਸਲ ਨੂੰ ਪਾਣੀ ਦੇਣਾ ਸੁਰੱਖਿਅਤ ਹੈ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ਮੌਸਮ ਚੇਤਾਵਨੀ: 15% ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ</h4>
-             <ul class="solution-steps">
-               <li><strong>ਸਿੰਚਾਈ:</strong> ✅ ਅੱਜ ਸਵੇਰੇ ਪਾਣੀ ਲਗਾਉਣਾ ਠੀਕ ਹੈ।</li>
-             </ul>`
-    },
-    ml: {
-      label: "കാലാവസ്ഥാ മുന്നറിയിപ്പ്",
-      speech: "നാളെ 15% മഴയ്ക്ക് സാധ്യതയുണ്ട്. ഇന്ന് രാവിലെ നനയ്ക്കുന്നത് സുരക്ഷിതമാണ്.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">കാലാവസ്ഥ പ്രവചനം: 15% മഴ സാധ്യത</h4>
-             <ul class="solution-steps">
-               <li><strong>നനയ്ക്കൽ:</strong> ✅ ഇന്ന് രാവിലെ നനയ്ക്കാം.</li>
-             </ul>`
-    },
-    or: {
-      label: "ପାଣିପାଗ ପରାମର୍ଶ",
-      speech: "ଆସନ୍ତାକାଲି ୧୫% ବର୍ଷା ସମ୍ଭାବନା ଅଛି। ଆଜି ସକାଳେ ଫସଲରେ ଜଳସେଚନ କରିବା ସୁରକ୍ଷିତ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ପାଣିପାଗ ସୂଚନା: ୧୫% ବର୍ଷା ସମ୍ଭାବନା</h4>
-             <ul class="solution-steps">
-               <li><strong>ଜଳସେଚନ:</strong> ✅ ଆଜି ସକାଳେ ପାଣି ଦେବା ସୁରକ୍ଷିତ।</li>
-             </ul>`
-    },
-    as: {
-      label: "বতৰৰ পৰামৰ্শ",
-      speech: "কাইলৈ ১৫% বৰষুণৰ সম্ভাৱনা আছে। আজি পুৱা শস্যত পানী দিয়া সুৰক্ষিত।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">বতৰৰ পূৰ্বাভাস: ১৫% বৰষুণৰ সম্ভাৱনা</h4>
-             <ul class="solution-steps">
-               <li><strong>জলসিঞ্চন:</strong> ✅ আজি পুৱা পানী দিয়ক।</li>
-             </ul>`
-    },
-    ur: {
-      label: "موسم کی پیش گوئی",
-      speech: "کل 15 فیصد بارش کا امکان ہے۔ آج صبح فصل کو پانی دینا محفوظ ہے۔",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">موسم کی پیش گوئی: 15٪ بارش کا امکان</h4>
-             <ul class="solution-steps">
-               <li><strong>آبپاشی:</strong> ✅ آج صبح پانی دینا مناسب ہے۔</li>
-             </ul>`
-    }
-  },
-  market: {
-    en: {
-      label: "Mandi Market Intelligence",
-      speech: "Today wheat mandi price is 2,450 rupees per quintal. Market is bullish, good time to sell.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">Wheat Rate: ₹2,450 / Quintal (🟢 SELL NOW)</h4>
-             <p>Current mandi rates are up by +4.2% over last week due to tight supply.</p>
-             <ul class="solution-steps">
-               <li><strong>Azadpur Mandi:</strong> ₹2,450 / Qtl</li>
-               <li><strong>Vashi Mandi:</strong> ₹2,480 / Qtl</li>
-             </ul>`
-    },
-    hi: {
-      label: "मंडी बाजार सूचना",
-      speech: "आज गेहूं का मंडी भाव 2,450 रुपये प्रति क्विंटल है। बाजार में तेजी है, बेचने का अच्छा समय है।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">गेहूं भाव: ₹2,450 / क्विंटल (🟢 बेचने का समय)</h4>
-             <p>पिछले सप्ताह की तुलना में भाव में 4.2% की बढ़त दर्ज की गई है।</p>
-             <ul class="solution-steps">
-               <li><strong>आजादपुर मंडी:</strong> ₹2,450 / क्विंटल</li>
-               <li><strong>वाशी मंडी:</strong> ₹2,480 / क्विंटल</li>
-             </ul>`
-    },
-    kn: {
-      label: "ಮಾರುಕಟ್ಟೆ ಧಾರಣೆ",
-      speech: "ಇಂದು ಗೋಧಿ ಮಾರುಕಟ್ಟೆ ಬೆಲೆ ಕ್ವಿಂಟಾಲ್‌ಗೆ 2,450 ರೂಪಾಯಿ ಆಗಿದೆ. ಮಾರಾಟ ಮಾಡಲು ಇದು ಉತ್ತಮ ಸಮಯ.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ಗೋಧಿ ಬೆಲೆ: ₹2,450 / ಕ್ವಿಂಟಾಲ್ (🟢 ಮಾರಾಟ ಮಾಡಿ)</h4>`
-    },
-    ta: {
-      label: "சந்தை விலை நிலவரம்",
-      speech: "இன்று கோதுமை சந்தை விலை குவிண்டாலுக்கு ₹2,450 ஆக உள்ளது. விற்பனை செய்ய நல்ல நேரம்.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">கோதுமை விலை: ₹2,450 / குவிண்டால் (🟢 விற்கலாம்)</h4>`
-    },
-    te: {
-      label: "మార్కెట్ ధర సమాచారం",
-      speech: "ఈరోజు గోధుమల మార్కెట్ ధర క్వింటాలుకు ₹2,450 ఉంది. అమ్మకానికి ఇది మంచి సమయం.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">గోధుమల ధర: ₹2,450 / క్వింటాల్ (🟢 అమ్మేయండి)</h4>`
-    },
-    mr: {
-      label: "बाजार भाव माहिती",
-      speech: "आज गव्हाचा बाजार भाव २,४५० रुपये प्रति क्विंटल आहे. विक्रीसाठी ही योग्य वेळ आहे.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">गहू भाव: ₹२,४५० / क्विंटल (🟢 विक्री करा)</h4>`
-    },
-    bn: {
-      label: "বাজার দর তথ্য",
-      speech: "আজ গমের বাজার দর প্রতি কুইন্টাল ২,৪৫০ টাকা। এখন বিক্রি করার ভালো সময়।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">গম দর: ₹২,৪৫০ / কুইন্টাল (🟢 বিক্রি করুন)</h4>`
-    },
-    gu: {
-      label: "બજાર ભાવ માહિતી",
-      speech: "આજે ઘઉંનો મંડી ભાવ ₹2,450 પ્રતિ ક્વિન્ટલ છે. વેચવાનો સારો સમય છે.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ઘઉંનો ભાવ: ₹2,450 / ક્વિન્ટલ (🟢 વેચો)</h4>`
-    },
-    pa: {
-      label: "ਮੰਡੀ ਭਾਅ ਜਾਣਕਾਰੀ",
-      speech: "ਅੱਜ ਕਣਕ ਦਾ ਮੰਡੀ ਭਾਅ 2,450 ਰੁਪਏ ਪ੍ਰਤੀ ਕੁਇੰਟਲ ਹੈ। ਵੇਚਣ ਦਾ ਵਧੀਆ ਸਮਾਂ ਹੈ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ਕਣਕ ਦਾ ਭਾਅ: ₹2,450 / ਕੁਇੰਟਲ (🟢 ਵੇਚੋ)</h4>`
-    },
-    ml: {
-      label: "വിപണി വില വിവരം",
-      speech: "ഇന്ന് ഗോതമ്പിന്റെ വിപണി വില ക്വിന്റലിന് ₹2,450 ആണ്. വിൽക്കാൻ നല്ല സമയമാണ്.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ഗോതമ്പ് വില: ₹2,450 / ക്വിന്റൽ (🟢 വിൽക്കാം)</h4>`
-    },
-    or: {
-      label: "ମଣ୍ଡି ଦର ସୂଚନା",
-      speech: "ଆଜି ଗହମର ମଣ୍ଡି ଦର କ୍ୱିଣ୍ଟାଲ ପ୍ରତି ୨,୪୫୦ ଟଙ୍କା। ବିକ୍ରି କରିବାର ସଠିକ୍ ସମୟ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ଗହମ ଦର: ₹୨,୪୫୦ / କ୍ୱିଣ୍ଟାଲ (🟢 ବିକ୍ରି କରନ୍ତୁ)</h4>`
-    },
-    as: {
-      label: "বজাৰ দৰৰ তথ্য",
-      speech: "আজি ঘেঁহুৰ বজাৰ দৰ প্ৰতি কুইণ্টলত ২,৪৫০ টকা। বিক্ৰী কৰাৰ উত্তম সময়।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ঘেঁহুৰ দৰ: ₹২,৪৫০ / কুইণ্টল (🟢 বিক্ৰী কৰক)</h4>`
-    },
-    ur: {
-      label: "منڈی کی قیمت",
-      speech: "آج گندم کی منڈی قیمت 2,450 روپے فی کوئنٹل ہے۔ بیچنے کا اچھا وقت ہے۔",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">گندم کا بھاؤ: ₹2,450 / کوئنٹل (🟢 فروخت کریں)</h4>`
-    }
-  },
-  fertilizer: {
-    en: {
-      label: "Fertilizer Dosage Recommendation",
-      speech: "For 1 acre paddy crop, apply 45 kg Urea and 50 kg DAP in the first growth phase.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">Recommended Dosage for 1 Acre Paddy</h4>
-             <ul class="solution-steps">
-               <li><strong>Urea (Nitrogen 46%):</strong> 45 kg / Acre</li>
-               <li><strong>DAP (Di-Ammonium Phosphate):</strong> 50 kg / Acre</li>
-             </ul>`
-    },
-    hi: {
-      label: "उर्वरक मात्रा सिफारिश",
-      speech: "धान की फसल के लिए प्रथम चरण में 45 किलो यूरिया और 50 किलो डीएपी प्रति एकड़ प्रयोग करें।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 एकड़ धान के लिए अनुशंसित मात्रा</h4>
-             <ul class="solution-steps">
-               <li><strong>यूरिया (नाइट्रोजन 46%):</strong> 45 किग्रा / एकड़</li>
-               <li><strong>DAP (फास्फोरस):</strong> 50 किग्रा / एकड़</li>
-             </ul>`
-    },
-    kn: {
-      label: "ಗೊಬ್ಬರದ ಪ್ರಮಾಣ ಸಲಹೆ",
-      speech: "ಒಂದು ಎಕರೆ ಭತ್ತಕ್ಕೆ 45 ಕೆಜಿ ಯೂರಿಯಾ ಮತ್ತು 50 ಕೆಜಿ ಡಿಎಪಿ ಗೊಬ್ಬರ ಬಳಸಿ.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 ಎಕರೆ ಭತ್ತಕ್ಕೆ ಗೊಬ್ಬರದ ಪ್ರಮಾಣ</h4>`
-    },
-    ta: {
-      label: "உர அளவு பரிந்துரை",
-      speech: "1 ஏக்கர் நெற்பயிருக்கு 45 கிலோ யூரியா மற்றும் 50 கிலோ DAP பயன்படுத்தவும்.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 ஏக்கர் நெல்லுக்கான உர அளவு</h4>`
-    },
-    te: {
-      label: "ఎరువుల మోతాదు సిఫార్సు",
-      speech: "ఒక ఎకరం వరి పంటకు 45 కిలోల యూరియా మరియు 50 కిలోల DAP వాడండి.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 ఎకరం వరికి ఎరువుల మోతాదు</h4>`
-    },
-    mr: {
-      label: "खत मात्रा शिफारस",
-      speech: "एक एकर भात पिकासाठी ४५ किलो युरिया आणि ५० किलो डीएपी वापरा.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">१ एकर भातासाठी खत मात्रा</h4>`
-    },
-    bn: {
-      label: "সার ব্যবহারের পরিমাণ",
-      speech: "১ একর ধান ফসলের জন্য ৪৫ কেজি ইউরিয়া এবং ৫০ কেজি ডিএপি ব্যবহার করুন।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">১ একর ধানের জন্য সারের মাত্রা</h4>`
-    },
-    gu: {
-      label: "ખાતર માત્રા ભલામણ",
-      speech: "1 એકર ડાંગરના પાક માટે 45 કિલો યુરિયા અને 50 કિલો DAP વાપરો.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 એકર ડાંગર માટે ખાતરનો ડોઝ</h4>`
-    },
-    pa: {
-      label: "ਖਾਦ ਦੀ ਮਾਤਰਾ ਦੀ ਸਿਫਾਰਸ਼",
-      speech: "1 ਏਕੜ ਝੋਨੇ ਲਈ 45 ਕਿੱਲੋ ਯੂਰੀਆ ਅਤੇ 50 ਕਿੱਲੋ ਡੀਏਪੀ ਪਾਓ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 ਏਕੜ ਝੋਨੇ ਲਈ ਖਾਦ</h4>`
-    },
-    ml: {
-      label: "വളപ്രയോഗ ശുപാർശ",
-      speech: "1 ഏക്കർ നെല്ലിന് 45 കിലോഗ്രാം യൂറിയയും 50 കിലോഗ്രാം DAP യും ഉപയോഗിക്കുക.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 ഏക്കർ നെല്ലിനുള്ള വളത്തിന്റെ അളവ്</h4>`
-    },
-    or: {
-      label: "ଖତ ପରିମାଣ ପରାମର୍ଶ",
-      speech: "୧ ଏକର ଧାନ ଫସଲ ପାଇଁ ୪୫ କିଲୋ ୟୁରିଆ ଏବଂ ୫୦ କିଲୋ DAP ବ୍ୟବହାର କରନ୍ତୁ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">୧ ଏକର ଧାନ ପାଇଁ ଖତ ପରିମାଣ</h4>`
-    },
-    as: {
-      label: "সাৰ ব্যৱহাৰৰ পৰামৰ্শ",
-      speech: "১ একৰ ধান শস্যৰ বাবে ৪৫ কেজি ইউৰিয়া আৰু ৫০ কেজি DAP ব্যৱহাৰ কৰক।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">১ একৰ ধানৰ বাবে সাৰৰ পৰিমাণ</h4>`
-    },
-    ur: {
-      label: "کھاد کی تجویز",
-      speech: "1 ایکڑ دھان کے لیے 45 کلو یوریا اور 50 کلو ڈی اے پی استعمال کریں۔",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">1 ایکڑ دھان کے لیے کھاد کا تناسب</h4>`
-    }
-  },
-  general: {
-    en: {
-      label: "Smart Farming Guidance",
-      speech: "FarmIQ AI assistant is ready to help. You can ask about crop diseases, weather, fertilizers, or mandi prices in your language.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">General Agricultural Advisory</h4>
-             <p>FarmIQ recommends maintaining proper soil aeration and regular crop leaf monitoring.</p>`
-    },
-    hi: {
-      label: "स्मार्ट कृषि मार्गदर्शन",
-      speech: "फार्म-आईक्यू AI सहायक आपकी सहायता के लिए तैयार है। आप अपनी भाषा में फसल बीमारी, मौसम, खाद या मंडी भाव पूछ सकते हैं।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">सामान्य कृषि सलाह</h4>
-             <p>फार्म-आईक्यू आपकी मिट्टी में नमी बनाए रखने और नियमित फसल निगरानी की सलाह देता है।</p>`
-    },
-    kn: {
-      label: "ಸ್ಮಾರ್ಟ್ ಕೃಷಿ ಮಾರ್ಗದರ್ಶನ",
-      speech: "ಫಾರ್ಮ್‌-ಐಕ್ಯೂ AI ಸಹಾಯಕ ಸಿದ್ಧವಾಗಿದೆ. ಬೆಳೆ ರೋಗ, ಹವಾಮಾನ ಅಥವಾ ಮಾರುಕಟ್ಟೆ ದರದ ಬಗ್ಗೆ ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲೇ ಕೇಳಿ.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ಸಾಮಾನ್ಯ ಕೃಷಿ ಸಲಹೆ</h4>`
-    },
-    ta: {
-      label: "ஸ்மார்ட் விவசாய வழிகாட்டுதல்",
-      speech: "FarmIQ AI உதவியாளர் தயார். உங்கள் மொழியிலேயே நோய், வானிலை, உரம் அல்லது சந்தை விலை பற்றி கேட்கலாம்.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">பொது விவசாய ஆலோசனை</h4>`
-    },
-    te: {
-      label: "స్మార్ట్ వ్యవసాయ మార్గదర్శకం",
-      speech: "FarmIQ AI అసిస్టెంట్ సిద్ధంగా ఉంది. మీ భాషలోనే పంట తెగుళ్లు, వాతావరణం లేదా మార్కెట్ ధరలు అడగవచ్చు.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">సాధారణ వ్యవసాయ సలహా</h4>`
-    },
-    mr: {
-      label: "स्मार्ट शेती मार्गदर्शन",
-      speech: "फार्म-आयक्यू AI सहाय्यक तयार आहे. तुमच्या भाषेत पिकाचे रोग, हवामान किंवा बाजारभाव विचारा.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">सामान्य शेती सल्ला</h4>`
-    },
-    bn: {
-      label: "স্মার্ট কৃষি নির্দেশিকা",
-      speech: "FarmIQ AI সহকারী প্রস্তুত। আপনার ভাষায় শস্যের রোগ, আবহাওয়া বা বাজার দর সম্পর্কে জিজ্ঞাসা করুন।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">সাধারণ কৃষি পরামর্শ</h4>`
-    },
-    gu: {
-      label: "સ્માર્ટ ખેતી માર્ગદર્શન",
-      speech: "FarmIQ AI સહાયક તૈયાર છે. તમારી માતૃભાષામાં પાકના રોગ, હવામાન કે બજાર ભાવ પૂછો.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">સામાન્ય કૃષિ સલાહ</h4>`
-    },
-    pa: {
-      label: "ਸਮਾਰਟ ਖੇਤੀ ਮਾਰਗਦਰਸ਼ਨ",
-      speech: "FarmIQ AI ਸਹਾਇਕ ਤਿਆਰ ਹੈ। ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਫ਼ਸਲ ਦੇ ਰੋਗ, ਮੌਸਮ ਜਾਂ ਮੰਡੀ ਭਾਅ ਪੁੱਛੋ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ਆਮ ਖੇਤੀ ਸਲਾਹ</h4>`
-    },
-    ml: {
-      label: "സ്മാർട്ട് കാർഷിക മാർഗ്ഗനിർദ്ദേശം",
-      speech: "FarmIQ AI അസിസ്റ്റന്റ് സജ്ജമാണ്. നിങ്ങളുടെ മാതൃഭാഷയിൽ രോഗം, കാലാവസ്ഥ, വിപണി വില എന്നിവ ചോദിക്കാം.",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">പൊതു കാർഷിക ഉപദേശം</h4>`
-    },
-    or: {
-      label: "ସ୍ମାର୍ଟ କୃଷି ମାର୍ଗଦର୍ଶନ",
-      speech: "FarmIQ AI ସହାୟକ ପ୍ରସ୍ତୁତ। ଆପଣଙ୍କ ମାତୃଭାଷାରେ ରୋଗ, ପାଣିପାଗ କିମ୍ବା ମଣ୍ଡି ଦର ପଚାରନ୍ତୁ।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">ସାଧାରଣ କୃଷି ପରାମର୍ଶ</h4>`
-    },
-    as: {
-      label: "স্মাৰ্ট কৃষি নিৰ্দেশনা",
-      speech: "FarmIQ AI সহায়ক সাজু হৈছে। আপোনাৰ নিজৰ ভাষাত ৰোগ, বতৰ বা বজাৰ দৰ সোধক।",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">সাধাৰণ কৃষি পৰামৰ্শ</h4>`
-    },
-    ur: {
-      label: "اسمارٹ زرعی رہنمائی",
-      speech: "فارم آئی کیو AI اسسٹنٹ آپ کی مدد کے لیے تیار ہے۔ اپنی زبان میں بیماری، موسم یا منڈی کی قیمت پوچھیں۔",
-      html: `<h4 style="color:var(--primary-glow); margin-bottom:8px;">عام زرعی ایڈوائزری</h4>`
-    }
-  }
-};
-
-// Intent Classification Engine for Multilingual Natural Language
+// Intent Classification Engine for Natural Language
 function processVoiceQuery(queryText) {
   const text = queryText.toLowerCase();
   let category = 'general';
+  let categoryLabel = 'General Query';
   let categoryIcon = 'fa-lightbulb';
+  let solutionHTML = '';
+  let speechText = '';
 
-  // Disease Intent Keywords across scripts & transliterated text
-  if (
-    text.includes('daag') || text.includes('rog') || text.includes('spot') || text.includes('leaf') || 
-    text.includes('patto') || text.includes('disease') || text.includes('keeda') || text.includes('insect') ||
-    text.includes('धब्बे') || text.includes('रोग') || text.includes('রোগ') || text.includes('ರೋಗ') ||
-    text.includes('நோய்') || text.includes('રોગ') || text.includes('ਰੋਗ') || text.includes('രോഗം') ||
-    text.includes('ରୋଗ') || text.includes('بیماری')
-  ) {
+  // Disease Intent Keywords
+  if (text.includes('daag') || text.includes('rog') || text.includes('spot') || text.includes('leaf') || text.includes('patto') || text.includes('disease') || text.includes('keeda') || text.includes('insect')) {
     category = 'disease';
+    categoryLabel = 'Crop Disease Diagnosis';
     categoryIcon = 'fa-stethoscope';
+    speechText = "Aapki fasal me patton ke daag fafundh (fungal blight) ke lakshan hain. Mancozeb 75% WP do gram prati litre pani me milakar chhidkaav karein.";
+    solutionHTML = `
+      <h4 style="color:var(--primary-glow); margin-bottom:8px;">Detected: Leaf Spot Fungal Infection (लीफ स्पॉट फफूंद)</h4>
+      <p>Your crop symptoms indicate early fungal leaf blight due to high moisture.</p>
+      <ul class="solution-steps">
+        <li><strong>Immediate Spray:</strong> Spray Mancozeb 75% WP @ 2g/litre of water immediately.</li>
+        <li><strong>Organic Remedy:</strong> Spray Neem Oil (10,000 PPM) 5ml per litre in evening hours.</li>
+        <li><strong>Precaution:</strong> Remove infected lower yellow leaves to stop spore spreading.</li>
+      </ul>
+    `;
   }
   // Weather Intent Keywords
-  else if (
-    text.includes('barish') || text.includes('mausam') || text.includes('rain') || text.includes('weather') || 
-    text.includes('kal') || text.includes('garmi') || text.includes('बारिश') || text.includes('मौसम') ||
-    text.includes('மழை') || text.includes('వర్షం') || text.includes('ಮಳೆ') || text.includes('বৃষ্টি') ||
-    text.includes('વરસાદ') || text.includes('ਮੀਂਹ') || text.includes('മഴ') || text.includes('ବର୍ଷା') ||
-    text.includes('বৰষুণ') || text.includes('بارش')
-  ) {
+  else if (text.includes('barish') || text.includes('mausam') || text.includes('rain') || text.includes('weather') || text.includes('kal') || text.includes('garmi')) {
     category = 'weather';
+    categoryLabel = 'Weather Forecast Alert';
     categoryIcon = 'fa-cloud-sun-rain';
+    speechText = "Aapke kshetra me kal 15 pratishat barish ki sambhavna hai. Aakash me halke badal rahenge. Aaj sinchai karna surakshit hai.";
+    solutionHTML = `
+      <h4 style="color:var(--primary-glow); margin-bottom:8px;">Weather Advisory: Partly Cloudy (15% Rain Chance)</h4>
+      <p>Tomorrow will remain partly cloudy with light wind speeds (12 km/h).</p>
+      <ul class="solution-steps">
+        <li><strong>Irrigation:</strong> ✅ Safe to irrigate crops today morning.</li>
+        <li><strong>Spraying:</strong> ❌ Avoid heavy pesticide spraying due to moderate wind drift.</li>
+        <li><strong>Harvesting:</strong> Harvested grains should be covered with tarpaulin sheets.</li>
+      </ul>
+    `;
   }
   // Market Mandi Intent Keywords
-  else if (
-    text.includes('rate') || text.includes('dam') || text.includes('daam') || text.includes('mandi') || 
-    text.includes('price') || text.includes('gehu') || text.includes('bhav') || text.includes('भाव') || 
-    text.includes('मंडी') || text.includes('விலை') || text.includes('ధర') || text.includes('ಬೆಲೆ') ||
-    text.includes('দর') || text.includes('ભાવ') || text.includes('ਭਾਅ') || text.includes('വില') ||
-    text.includes('ଦର') || text.includes('قیمت')
-  ) {
+  else if (text.includes('rate') || text.includes('dam') || text.includes('daam') || text.includes('mandi') || text.includes('price') || text.includes('gehu') || text.includes('bhav')) {
     category = 'market';
+    categoryLabel = 'Mandi Market Intelligence';
     categoryIcon = 'fa-chart-line';
+    speechText = "Aaj gehu ka mandi bhav do hazar char sau pachas rupaye prati quintal hai. Bazaar me tezi hai, bechne ka achha samay hai.";
+    solutionHTML = `
+      <h4 style="color:var(--primary-glow); margin-bottom:8px;">Wheat Rate: ₹2,450 / Quintal (🟢 SELL NOW)</h4>
+      <p>Current mandi rates are up by +4.2% over last week due to tight regional supply.</p>
+      <ul class="solution-steps">
+        <li><strong>Azadpur Mandi:</strong> ₹2,450 / Qtl (Trend: Rising)</li>
+        <li><strong>Vashi Mandi:</strong> ₹2,480 / Qtl</li>
+        <li><strong>Recommendation:</strong> Sell 60% of inventory now to lock in high profits.</li>
+      </ul>
+    `;
   }
   // Fertilizer Intent Keywords
-  else if (
-    text.includes('khad') || text.includes('fertilizer') || text.includes('urea') || text.includes('dap') || 
-    text.includes('dhan') || text.includes('खाद') || text.includes('यूरिया') || text.includes('உரம்') || 
-    text.includes('ఎరువులు') || text.includes('ಗೊಬ್ಬರ') || text.includes('সার') || text.includes('ખાતર') ||
-    text.includes('ਖਾਦ') || text.includes('വളം') || text.includes('ଖତ') || text.includes('ساৰ') || text.includes('کھاد')
-  ) {
+  else if (text.includes('khad') || text.includes('fertilizer') || text.includes('urea') || text.includes('dap') || text.includes('dhan')) {
     category = 'fertilizer';
+    categoryLabel = 'Fertilizer Dosage Recommendation';
     categoryIcon = 'fa-flask';
+    speechText = "Dhan ki fasal ke liye pratham charan me 45 kilo urea aur 50 kilo DAP prati ekad ki matra mein prayog karein.";
+    solutionHTML = `
+      <h4 style="color:var(--primary-glow); margin-bottom:8px;">Recommended Dosage for 1 Acre Paddy</h4>
+      <p>Balanced N-P-K nutrient formula calculated for high yield:</p>
+      <ul class="solution-steps">
+        <li><strong>Urea (Nitrogen 46%):</strong> 45 kg / Acre</li>
+        <li><strong>DAP (Di-Ammonium Phosphate):</strong> 50 kg / Acre</li>
+        <li><strong>Neem Cake Organic:</strong> 100 kg / Acre for soil microbe health.</li>
+      </ul>
+    `;
   }
+  // Default Irrigation/General Response
   else {
-    category = 'general';
+    category = 'irrigation';
+    categoryLabel = 'Smart Farming Guidance';
     categoryIcon = 'fa-droplet';
+    speechText = "Smart FarmIQ assistant aapki sahayata ke liye tayar hai. Kripya apna prashn fasal, mausam ya mandi bhav ke bare me poochein.";
+    solutionHTML = `
+      <h4 style="color:var(--primary-glow); margin-bottom:8px;">General Agricultural Advisory</h4>
+      <p>For your query "${queryText}", FarmIQ recommends maintaining proper soil aeration and regular crop monitoring.</p>
+      <ul class="solution-steps">
+        <li>Check leaf undersides every 3 days for early pest eggs.</li>
+        <li>Use drip irrigation to save 40% water and prevent root rot.</li>
+      </ul>
+    `;
   }
-
-  const langRes = (nativeResponses[category] && nativeResponses[category][currentLanguage]) 
-    ? nativeResponses[category][currentLanguage] 
-    : (nativeResponses[category]['en'] || nativeResponses[category]['hi']);
-  
-  const categoryLabel = langRes.label;
-  const speechText = langRes.speech;
-  const solutionHTML = langRes.html;
 
   // Render Result Card
   const resultCard = document.getElementById('voiceResultCard');
@@ -1659,7 +1063,7 @@ function processVoiceQuery(queryText) {
   resultCard.style.display = 'block';
   currentSpeechResponse = speechText;
 
-  // Speak aloud automatically in active native language
+  // Speak aloud automatically
   speakText(speechText);
 }
 
@@ -2377,97 +1781,16 @@ function sendKisanMsg() {
 
   // Bot Typing Simulation
   setTimeout(() => {
+    let botReply = "I have noted your concern. For leaf diseases, try our AI Crop Doctor scanner above! Is there anything else about weather or mandi rates?";
     const lower = msg.toLowerCase();
-    let category = 'general';
-
-    if (
-      lower.includes('hi') || lower.includes('hello') || lower.includes('namaste') || 
-      lower.includes('नमस्ते') || lower.includes('നമസ്കാരം') || lower.includes('வணக்கம்') ||
-      lower.includes('నమస్తే') || lower.includes('ನಮಸ್ಕಾರ') || lower.includes('নমস্কার') ||
-      lower.includes('નમસ્તે') || lower.includes('ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ') || lower.includes('سلام')
-    ) {
-      category = 'greeting';
-    } else if (
-      lower.includes('rain') || lower.includes('weather') || lower.includes('barish') ||
-      lower.includes('बारिश') || lower.includes('मौसम') || lower.includes('മഴ') ||
-      lower.includes('மழை') || lower.includes('వర్షం') || lower.includes('ಮಳೆ') ||
-      lower.includes('বৃষ্টি') || lower.includes('વરસાદ') || lower.includes('ਮੀਂਹ')
-    ) {
-      category = 'weather';
-    } else if (
-      lower.includes('mandi') || lower.includes('rate') || lower.includes('price') ||
-      lower.includes('मंडी') || lower.includes('भाव') || lower.includes('விலை') ||
-      lower.includes('ధర') || lower.includes('ಬೆಲೆ') || lower.includes('দর') ||
-      lower.includes('ભાવ') || lower.includes('ਭਾਅ') || lower.includes('வില')
-    ) {
-      category = 'market';
+    
+    if (lower.includes('hi') || lower.includes('hello') || lower.includes('namaste')) {
+      botReply = "Namaste Kisan Bhai! How is your farm doing today?";
+    } else if (lower.includes('rain') || lower.includes('weather') || lower.includes('barish')) {
+      botReply = "Check our Weather Advisor section for live 5-day rain predictions for your state!";
+    } else if (lower.includes('mandi') || lower.includes('rate') || lower.includes('price')) {
+      botReply = "Wheat prices are currently high at ₹2,450/qtl. Check the Smart Mandi Dashboard above!";
     }
-
-    const botReplies = {
-      greeting: {
-        en: "Namaste Kisan Bhai! How is your farm doing today? Ask me about weather, crop diseases, or mandi rates!",
-        hi: "नमस्ते किसान भाई! आज आपकी खेती कैसी चल रही है? मुझसे मौसम, फसल रोग या मंडी भाव के बारे में पूछें!",
-        kn: "ನಮಸ್ಕಾರ ರೈತ ಬಂಧುವೇ! ನಿಮ್ಮ ಬೆಳೆ ಹೇಗಿದೆ? ಹವಾಮಾನ ಅಥವಾ ಮಾರುಕಟ್ಟೆ ದರದ ಬಗ್ಗೆ ಕೇಳಿ!",
-        ta: "வணக்கம் விவசாயி! உங்கள் பயிர் எப்படி உள்ளது? வானிலை அல்லது சந்தை விலை பற்றி கேட்கலாம்!",
-        te: "నమస్తే రైతు సోదరా! మీ పంట ఎలా ఉంది? వాతావరణం లేదా మార్కెట్ ధరల గురించి అడగండి!",
-        mr: "नमस्कार शेतकरी मित्र! आज तुमचे पीक कसे आहे? हवामान किंवा बाजारभावाबद्दल विचारा!",
-        bn: "নমস্কার কৃষক ভাই! আজ আপনার শস্য কেমন আছে? আবহাওয়া বা বাজার দর সম্পর্কে জিজ্ঞাসা করুন!",
-        gu: "નમસ્તે ખેડૂત મિત્ર! આજે તમારો પાક કેવો છે? હવામાન કે મંડી ભાવ વિશે પૂછો!",
-        pa: "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ ਕਿਸਾਨ ਵੀਰੋ! ਤੁਹਾਡੀ ਫ਼ਸਲ ਕਿਵੇਂ ਹੈ? ਮੌਸਮ ਜਾਂ ਮੰਡੀ ਭਾਅ ਬਾਰੇ ਪੁੱਛੋ!",
-        ml: "നമസ്കാരം കർഷക മിത്രമേ! നിങ്ങളുടെ കൃഷി എങ്ങനെയുണ്ട്? വിപണി വിലയെക്കുറിച്ച് ചോദിക്കൂ!",
-        or: "ନମସ୍କାର କୃଷକ ଭାଇ! ଆଜି ଆପଣଙ୍କ ଫସଲ କିପରି ଅଛି? ପାଣିପାଗ କିମ୍ବା ମଣ୍ଡି ଦର ପଚାରନ୍ତୁ!",
-        as: "নমস্কাৰ কৃষক ভাই! আজি আপোনাৰ খেতি কেনে আছে? বতৰ বা বজাৰ দৰ সোধক!",
-        ur: "السلام علیکم کسان بھائی! آج آپ کی کھیتی کیسی ہے؟ موسم یا منڈی کے ریٹ کے بارے میں پوچھیں!"
-      },
-      weather: {
-        en: "Check our Weather Advisor section for live 5-day rain predictions for your state!",
-        hi: "अपने राज्य के लिए 5 दिनों का मौसम और बारिश का पूर्वानुमान ऊपर मौसम सलाह सेक्शन में देखें!",
-        kn: "ನಿಮ್ಮ ರಾಜ್ಯದ 5 ದಿನಗಳ ಹವಾಮಾನ ವರದಿಗಾಗಿ ನಮ್ಮ ಹವಾಮಾನ ವಿಭಾಗವನ್ನು ನೋಡಿ!",
-        ta: "உங்கள் மாநிலத்திற்கான 5 நாள் வானிலை அறிக்கையை மேலே உள்ள வானிலை பிரிவில் பார்க்கவும்!",
-        te: "మీ రాష్ట్రం కోసం 5 రోజుల వర్ష సూచనను వాతావరణ విభాగంలో చూడండి!",
-        mr: "तुमच्या राज्यासाठी ५ दिवसांचा हवामान अंदाज वर हवामान विभागात पहा!",
-        bn: "আপনার রাজ্যের জন্য ৫ দিনের আবহাওয়ার পূর্বাভাস উপরের আবহাওয়া বিভাগে দেখুন!",
-        gu: "તમારા રાજ્ય માટે 5 દિવસની હવામાન આગાહી ઉપર હવામાન વિભાગમાં જુઓ!",
-        pa: "ਆਪਣੇ ਸੂਬੇ ਲਈ 5 ਦਿਨਾਂ ਦਾ ਮੌਸਮ ਦਾ ਹਾਲ ਉੱਪਰ ਮੌਸਮ ਸੈਕਸ਼ਨ ਵਿੱਚ ਦੇਖੋ!",
-        ml: "നിങ്ങളുടെ സംസ്ഥാനത്തിനായുള്ള 5 ദിവസത്തെ കാലാവസ്ഥാ പ്രവചനം മുകളിൽ കാണുക!",
-        or: "ଆପଣଙ୍କ ରାଜ୍ୟ ପାଇଁ ୫ ଦିନର ପାଣିପାଗ ପୂର୍ବାନୁମାନ ଉପରେ ଦେଖନ୍ତୁ!",
-        as: "আপোনাৰ ৰাজ্যৰ বাবে ৫ দিনৰ বতৰৰ পূৰ্বাভাস ওপৰত চাওক!",
-        ur: "اپنے صوبے کے لیے 5 دن کی موسم کی پیش گوئی اوپر دیکھئے!"
-      },
-      market: {
-        en: "Wheat prices are currently high at ₹2,450/qtl. Check the Smart Mandi Dashboard above!",
-        hi: "गेहूं के भाव वर्तमान में ₹2,450/क्विंटल पर मजबूत हैं। ऊपर स्मार्ट मंडी डैशबोर्ड देखें!",
-        kn: "ಗೋಧಿ ಬೆಲೆ ಕ್ವಿಂಟಾಲ್‌ಗೆ ₹2,450 ತಲುಪಿದೆ. ಉನ್ನತ ಮಾರುಕಟ್ಟೆ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ನೋಡಿ!",
-        ta: "கோதுமை விலை தற்போது குவிண்டாலுக்கு ₹2,450 ஆக உள்ளது. சந்தை பலகையைப் பார்க்கவும்!",
-        te: "గోధుమల ధర ప్రస్తుతం క్వింటాలుకు ₹2,450గా ఉంది. స్మార్ట్ మార్కెట్ బోర్డు చూడండి!",
-        mr: "गव्हाचे भाव सध्या ₹२,४५०/क्विंटलवर आहेत. वर स्मार्ट बाजार डॅशबोर्ड पहा!",
-        bn: "গমের দাম বর্তমানে কুইন্টাল প্রতি ₹২,৪৫০। উপরে স্মার্ট বাজার ড্যাশবোর্ড দেখুন!",
-        gu: "ઘઉંનો ભાવ હાલમાં ₹2,450/ક્વિન્ટલ છે. ઉપર મંડી ડેશબોર્ડ જુઓ!",
-        pa: "ਕਣਕ ਦਾ ਭਾਅ ਇਸ ਵੇਲੇ ₹2,450/ਕੁਇੰਟਲ ਹੈ। ਉੱਪਰ ਮੰਡੀ ਡੈਸ਼ਬੋਰਡ ਦੇਖੋ!",
-        ml: "ഗോതമ്പ് വില നിലവിൽ ക്വിന്റലിന് ₹2,450 ആണ്. മുകളിൽ ഡാഷ്‌ബോർഡ് കാണുക!",
-        or: "ଗହମ ଦର ବର୍ତ୍ତମାନ କ୍ୱିଣ୍ଟାଲ ପ୍ରତି ₹୨,୪୫୦। ଉପରେ ମଣ୍ଡି ଡ୍ୟାସବୋର୍ଡ ଦେଖନ୍ତୁ!",
-        as: "ঘেঁহুৰ দৰ বৰ্তমান কুইণ্টলত ₹২,৪৫০। ওপৰত বজাৰ ডেশ্বব’ৰ্ড চাওক!",
-        ur: "گندم کی قیمت اس وقت ₹2,450 فی کوئنٹل ہے۔ اوپر منڈی ڈیش بورڈ دیکھیں!"
-      },
-      general: {
-        en: "I have noted your query. For crop disease diagnosis, try our AI Crop Doctor scanner above!",
-        hi: "मैंने आपकी बात नोट कर ली है। फसल रोग की जांच के लिए ऊपर AI फसल डॉक्टर स्कैनर का उपयोग करें!",
-        kn: "ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಗಮನಿಸಲಾಗಿದೆ. ಬೆಳೆ ರೋಗ ಪತ್ತೆಗೆ ಮೇಲಿನ AI ಬೆಳೆ ವೈದ್ಯ ಸ್ಕ್ಯಾನರ್ ಬಳಸಿ!",
-        ta: "உங்கள் கேள்வியைப் பதிவு செய்துள்ளேன். நோய் கண்டறிய AI பயிர் மருத்துவரைப் பயன்படுத்தவும்!",
-        te: "మీ ప్రశ్నను నమోదు చేశాను. పంట తెగులు కోసం పైన ఉన్న AI పంట డాక్టర్ వాడండి!",
-        mr: "मी तुमचा प्रश्न नोंदवला आहे. पीक रोगाच्या तपासणीसाठी वर AI पीक डॉक्टर वापरा!",
-        bn: "আমি আপনার প্রশ্ন নোট করেছি। শস্য রোগের জন্য AI শস্য ডাক্তার স্ক্যানার ব্যবহার করুন!",
-        gu: "મેં તમારો પ્રશ્ન નોંધ્યો છે. પાક રોગ માટે ઉપર AI પાક ડોક્ટર વાપરો!",
-        pa: "ਮੈਂ ਤੁਹਾਡਾ ਸਵਾਲ ਨੋਟ ਕਰ ਲਿਆ ਹੈ। ਫ਼ਸਲ ਦੇ ਰੋਗ ਲਈ ਉੱਪਰ AI ਫ਼ਸਲ ਡਾਕਟਰ ਵਰਤੋਂ!",
-        ml: "നിങ്ങളുടെ ചോദ്യം കുറിച്ചെടുത്തു. വിള രോഗ നിർണയത്തിനായി AI ഡോക്ടർ ഉപയോഗിക്കൂ!",
-        or: "ମୁଁ ଆପଣଙ୍କ ପ୍ରଶ୍ନ ନୋଟ୍ କରିଛି। ରୋଗ ଚିହ୍ନଟ ପାଇଁ AI ଫସଲ ଡାକ୍ତର ବ୍ୟବହାର କରନ୍ତୁ!",
-        as: "মই আপোনাৰ প্ৰশ্ন টুকি লৈছোঁ। শস্য ৰোগৰ বাবে AI শস্য ডাক্তাৰ ব্যৱহাৰ কৰক!",
-        ur: "میں نے آپ کا سوال نوٹ کر لیا ہے۔ فصل کی بیماری کے لیے AI فصل ڈاکٹر استعمال کریں!"
-      }
-    };
-
-    const replyMap = botReplies[category] || botReplies['general'];
-    const botReply = replyMap[currentLanguage] || replyMap['en'];
 
     const botDiv = document.createElement('div');
     botDiv.className = 'chat-msg bot';
